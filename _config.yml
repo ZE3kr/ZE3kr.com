@@ -196,7 +196,7 @@ theme_config:
   appearance: auto # Default value is auto
 
   # Miscellaneous
-  # favicon: /images/favicon.png
+  favicon: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/thumbnail
 
   # picture of about page
   about_pic: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/small
