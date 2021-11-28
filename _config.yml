@@ -143,6 +143,8 @@ theme_config:
     - tag
     - category
 
+  iframe: https://guozeyu.com/widget.html
+
   # social config
   social:
     twitter: ZE3kr
