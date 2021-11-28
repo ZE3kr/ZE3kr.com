@@ -141,7 +141,6 @@ theme_config:
 
   widgets:
     - tag
-    - recent_posts
     - category
 
   # social config
