@@ -141,6 +141,8 @@ theme_config:
     About: https://guozeyu.com/about/
   # Archive: /archives
 
+  highlight: false
+
   widgets:
     - tag
     - category
