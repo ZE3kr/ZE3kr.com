@@ -131,6 +131,8 @@ feed:
 
 theme_config:
   title: 郭泽宇的作品集
+  short: 作品集
+  short2: ZE3kr 的作品集
 
   # main menu navigation
   menu:
