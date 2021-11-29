@@ -136,7 +136,7 @@ theme_config:
 
   # main menu navigation
   menu:
-    博客首页: https://guozeyu.com
+    博客: https://guozeyu.com
     作品集: /
     About: https://guozeyu.com/about/
   # Archive: /archives
