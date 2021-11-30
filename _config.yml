@@ -147,7 +147,7 @@ theme_config:
     - tag
     - category
 
-  iframe: https://guozeyu.com/widget.html
+  iframe: https://guozeyu.com/widget/
 
   # social config
   social:
