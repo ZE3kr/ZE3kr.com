@@ -4,7 +4,7 @@ export async function onRequest({ request }) {
     url.protocol = 'https:'
     url.hostname = 'matomo.tloxygen.com'
     url.pathname = '/matomo.js'
-    return fetch(url.toString(), request, { cf: { resolveOverride: url.hostname, cacheEverything: true } })
+    return fetch(url.toString(), request, { cf: { resolveOverride: url.hostname } })
   } catch (err) {
     return new Response(`${err.message}\n${err.stack}`, { status: 500 })
   }
