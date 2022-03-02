@@ -1,9 +1,9 @@
 ---
-title: 广州航拍
+title: Guangzhou Aerial
 tags:
-  - 航拍
+  - Aerial
 categories:
-  - 视频
+  - Movies
 date: 2020-08-14 22:00:00
 cover: https://videodelivery.net/b6aea1e85b1b08c98c727348a145ceb7/thumbnails/thumbnail.jpg?time=1s
 video: b6aea1e85b1b08c98c727348a145ceb7
