@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 郭泽宇的作品集
+title: James Guo’s Portfolio (@ZE3kr)
 subtitle: ''
 description: ''
 keywords:
-author: 郭泽宇
-language: zh-CN
-timezone: ''
+author: James Guo
+language: en-US
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://guozeyu.com
+url: https://ze3kr.com
 permalink: :year/:title/
 permalink_defaults:
 pretty_urls:
@@ -126,9 +126,9 @@ feed:
   hub:
 
 theme_config:
-  title: 郭泽宇的作品集
-  short: 作品集
-  short2: ZE3kr 的作品集
+  title: James Guo’s Portfolio
+  short: Portfolio
+  short2: ZE3kr’s Portfolio
 
   # main menu navigation
   menu:
@@ -136,6 +136,9 @@ theme_config:
     作品集: /
     About: https://guozeyu.com/about/
   # Archive: /archives
+
+  license: |-
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" target="_blank" rel="noopener nofollow">CC BY-SA 4.0</a>
 
   highlight: false
 
@@ -152,11 +155,12 @@ theme_config:
     github: ZE3kr
 
   user:
-    name: ZE3kr
+    name: James Guo (@ZE3kr)
     avatar: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/medium
-    location: 北京
+    location: Saint Louis
   # description: 郭泽宇的个人主页
-    footnotes:
+    footnotes: |-
+      <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17005542号-1</a>
 
   # documents: https://github.com/utterance/utterances
   # API config: https://utteranc.es/
