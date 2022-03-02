@@ -129,6 +129,7 @@ theme_config:
   title: James Guo’s Portfolio (@ZE3kr)
   short: 作品集 (英文)
   short2: ZE3kr’s Portfolio
+  piwik: 13
 
   # main menu navigation
   menu:
