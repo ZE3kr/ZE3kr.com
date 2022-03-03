@@ -135,7 +135,7 @@ theme_config:
   menu:
     Blog: https://guozeyu.com
     Portfolio: /
-    About: https://guozeyu.com/about/
+    About: /about/
   # Archive: /archives
 
   license: |-
