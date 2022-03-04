@@ -150,6 +150,11 @@ theme_config:
 
   iframe: https://guozeyu.com/widget/
 
+  links:
+    - title: Zeus Wang’s Website
+      url: https://zeus.wang
+      domain: zeus.wang
+
   # social config
   social:
     twitter: ZE3kr
