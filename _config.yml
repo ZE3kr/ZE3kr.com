@@ -151,7 +151,7 @@ theme_config:
   iframe: https://guozeyu.com/widget/
 
   links:
-    - title: Zeus Wang’s Website
+    - title: Zeus Wang
       url: https://zeus.wang
       domain: zeus.wang
 
