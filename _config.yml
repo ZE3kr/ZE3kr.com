@@ -136,8 +136,8 @@ theme_config:
   # main menu navigation
   menu:
     Home: /
-    中文: https://guozeyu.com/
     About: /about/
+    简体中文: https://guozeyu.com/
   # Archive: /archives
 
   license: |-
