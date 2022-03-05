@@ -171,8 +171,8 @@ theme_config:
   # documents: https://github.com/utterance/utterances
   # API config: https://utteranc.es/
   comment_utteranc:
-    enable: false
-    repo:
+    enable: true
+    repo: ZE3kr/ZE3kr.com
 
   # documents: https://valine.js.org/quickstart.html
   comment_valine:
