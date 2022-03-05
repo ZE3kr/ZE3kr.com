@@ -127,8 +127,10 @@ feed:
 
 theme_config:
   title: James Guo’s Portfolio (@ZE3kr)
-  short: 作品集 (英文)
+  short: Portfolio
   short2: ZE3kr’s Portfolio
+  widget_url: /categories/Portfolio/
+  widget_filter: Portfolio
   piwik: 13
 
   # main menu navigation
@@ -196,3 +198,11 @@ theme_config:
 
   # picture of about page
   about_pic: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/large
+
+hide_posts:
+  enable: true
+  # Change the filter name to fit your need
+  filter: hidden
+  # Generators which you want to expose all posts (include hidden ones) to.
+  # Common generators: index, tag, category, archive, sitemap, feed, etc.
+  public_generators: ['tag', 'category', 'sitemap']
