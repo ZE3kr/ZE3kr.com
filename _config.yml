@@ -127,7 +127,7 @@ feed:
 
 theme_config:
   title: James Guo (@ZE3kr)
-  short: Portfolio
+  short: 作品集
   short2: ZE3kr
   widget_url: /categories/Portfolio/
   widget_filter: Portfolio

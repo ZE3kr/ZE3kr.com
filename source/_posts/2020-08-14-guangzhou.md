@@ -1,5 +1,6 @@
 ---
 title: Guangzhou Aerial
+title_cn: 广州航拍
 tags:
   - Aerial
 categories:
