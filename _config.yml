@@ -126,17 +126,17 @@ feed:
   hub:
 
 theme_config:
-  title: James Guo’s Portfolio (@ZE3kr)
+  title: James Guo (@ZE3kr)
   short: Portfolio
-  short2: ZE3kr’s Portfolio
+  short2: ZE3kr
   widget_url: /categories/Portfolio/
   widget_filter: Portfolio
   piwik: 13
 
   # main menu navigation
   menu:
-    Blog: https://guozeyu.com
-    Portfolio: /
+    Home: /
+    中文: https://guozeyu.com/
     About: /about/
   # Archive: /archives
 
@@ -149,8 +149,6 @@ theme_config:
     - tag
     - category
     - profile
-
-  iframe: https://guozeyu.com/widget/
 
   links:
     - title: Zeus Wang
