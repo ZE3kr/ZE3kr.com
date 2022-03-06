@@ -19,9 +19,9 @@ What is an IPv6-Only network Strictly speaking, only IPv6 addresses can be conne
 
 In order to support IPv6, first of all, the root domain name you use must support IPv6. Fortunately, most root domain names support IPv6. [From here](http://bgp.he.net/ipv6-progress-report.cgi), we can see that 98% of the root domain names already support IPv6. Generally, people still prefer to use third-party DNS instead of building their own, so it is necessary to use a DNS server that supports IPv6 for themselves. Fortunately, there are also many DNS servers that support IPv6, such as CloudFlare, OVH, Vultr, DNSimple, Rage4, etc. Most foreign DNS resolutions, oh, except for Route53; Baidu Cloud Acceleration, sDNS DNS resolution support has been seen in China, other Commonly used CloudXNS, DNSPod, Alibaba Cloud, etc. are not supported. To detect whether the root domain name or the DNS server used by a domain name supports IPv6, just execute the command and replace the `<domain>` with the root domain name (such as com) or any first-level domain name (such as example.com):
 
-````
+```
 $ dig -t AAAA `dig <domain> ns +short` +short
-````
+```
 
 Then check whether the output IP is all IPv6 addresses. If nothing is output, the DNS server does not support IPv6. Example of proper IPv6 configuration:
 

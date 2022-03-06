@@ -28,7 +28,7 @@ The specific installation method [see the document](https://about.gitlab.com/dow
 
 [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner) is very powerful, but it is not built-in. It can be extremely convenient to implement very useful functions such as automatic deployment. After installing and configuring the Runner, add a file named `.gitlab-ci.yml` in the project root directory. Taking the master branch as an example, in order to achieve every commit to master, the file is deployed to `/var/gitlab/ myapp` , then the file content should look like this:
 
-````
+```
 pages:
 stage: deploy
 script:
@@ -36,13 +36,13 @@ script:
 - git --work-tree=/var/gitlab/myapp checkout -f
 only:
 - master
-````
+```
 
 Note that you need to create the `/var/gitlab` folder first, and set the user group of this folder to `gitlab-runner:gitlab-runner`
 
-````
+```
 $ sudo chown -R gitlab-runner:gitlab-runner /var/gitlab
-````
+```
 
 The core part of `.gitlab-ci.yml` is `script:` , the scripts here are all executed by the user `gitlab-runner`, you can modify it according to your needs, and several examples are also given later. Then commit, go to the settings page to activate the Runner of this project. It is recommended to set Builds to `git clone` instead of `git fetch` in the settings, because the latter often has strange problems, and the speed bottleneck of the former is mainly network transmission.
 
@@ -58,43 +58,43 @@ These kinds of deployments are the ones I use more often, and you can use them a
 
 Modify the `git checkout` line of the previous `.gitlab-ci.yml` file and replace it with:
 
-````
+```
 jekyll build --incremental -d /var/gitlab/myapp
-````
+```
 
 #### Check PHP for Compilation Errors
 
 You can also add the following code to `.gitlab-ci.yml` to automatically check the compilation errors of all PHP files. The compiled files will not be displayed, only the compilation errors will be displayed:
 
-````
+```
 if find . -type f -name "*.php" -exec nice php -l {} \; grep -v "No syntax errors"; then false; else echo "No syntax errors"; fi
-````
+```
 
 #### Automatically Sync with GitHub
 
 The following procedure requires root access to the host, or adding `sudo` before each command line. First, you need to give the `gitlab-runner` user a separate SSH Key:
 
-````
+```
 $ ssh-keygen -f /home/gitlab-runner/.ssh/id_rsa
-````
+```
 
 Then, create `/home/gitlab-runner/.ssh/known_hosts` with:
 
-````
+```
 github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa + PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31 / yMf + Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB + weqqUUmpaaasXVal72J + UX2B + 2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi / w4yCE6gbODqnTWlg7 + wC604ydGXA8VJiS5ap43JXiUFFAaQ ==
-````
+```
 
 After that, get the contents of `/home/gitlab-runner/.ssh/id_rsa.pub` file, [Add this SSH Key on GitHub](https://github.com/settings/keys). Since you are using the root account, don't forget to modify the user group after you are done:
 
-````
+```
 $ sudo chown -R gitlab-runner:gitlab-runner /home/gitlab-runner/.ssh
-````
+```
 
 Then, also through `.gitlab-ci.yml` To achieve automatic synchronization:
 
-````
+```
 git push --force --mirror git@github.com:[Organization]/[Project].git
-````
+```
 
 Just change `[Organization]` and `[Project]` to your own names.
 

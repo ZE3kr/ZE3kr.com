@@ -79,7 +79,7 @@ At this point, CloudFront is configured. CloudFront now automatically caches pag
 
 Domestic analysis:
 
-````
+```
 $ dig @8.8.8.8 +short guozeyu.com a
 104.199.138.99
 
@@ -92,11 +92,11 @@ $ dig @8.8.8.8 +short guozeyu.com aaaa
 2600:9000:2029:ce00:9:c41:b0c0:93a1
 2600:9000:2029:6400:9:c41:b0c0:93a1
 2600:9000:2029:ac00:9:c41:b0c0:93a1
-````
+```
 
 Analysis of international countries:
 
-````
+```
 $ dig @8.8.8.8 +short guozeyu.com a
 52.222.238.236
 52.222.238.227
@@ -116,7 +116,7 @@ $ dig @8.8.8.8 +short guozeyu.com aaaa
 2600:9000:202d:c600:9:c41:b0c0:93a1
 2600:9000:202d:f600:9:c41:b0c0:93a1
 2600:9000:202d:6200:9:c41:b0c0:93a1
-````
+```
 
 That's right, the number of IPs that CloudFront assigns is too many, and it will be very powerful for others to see.
 

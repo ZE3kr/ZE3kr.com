@@ -90,19 +90,19 @@ HTTPS can only prevent tampering to a certain extent, but it cannot resist some 
 
 The following is the configuration in `.htaccess` in Apache
 
-````
+```
 RewriteEngine on
 RewriteCond %{HTTP:X-Forwarded-Proto}=http
 RewriteRule ^ https://%{HTTP\_HOST}%{REQUEST\_URI} \[L,R=301\] # disable HTTP protocol
-````
+```
 
 ### HSTS and HSTS Preload List
 
 HSTS (HTTP Strict Transport Security, HTTP Strict Transport Security) is a way to make browsers enforce HTTPS. When a user visits an HTTPS site, the server returns a Header, informing the browser that HTTPS must be enforced under this domain name, within the validity period , the browser will only use HTTPS to access this domain name. The following is the configuration in `.htaccess` in Apache.
 
-````
+```
 Header set Strict-Transport-Security "max-age=315360000; preload; includeSubDomains" env=HTTPS
-````
+```
 
 For example, when visiting `http://tlo.xyz` for the first time, the browser will be redirected to `https://tlo.xyz` by 301, and then it will receive this Header. Within 10 years, all files under tlo.xyz will be All domain names will only use HTTPS, including the second-level domain name `ze3kr.tlo.xyz`. But this is not over yet. If the website has been hijacked by HTTPS when the browser is accessed for the first time, then it is meaningless to do so, so you need to include the `preload` parameter after starting HSTS, and then go to [ Submit](https://hstspreload.appspot.com), pay attention to the requirements. After you submit it, you will be able to see your domain name in the source code of major browsers after a period of time.
 

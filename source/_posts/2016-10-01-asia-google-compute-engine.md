@@ -65,7 +65,7 @@ Some DNS requests are sent over TCP, so you need to enable TCP requests as well.
 
 Since GCE is owned by Google, its network is actually Google's AS15169, so you don't have to think about it and know that it will be fast to connect to Google's services, but after actual use, I found that it is much faster than I thought, GCE's connection to Google's services is like an intranet Same.
 
-````
+```
 $ ping google.com
 PING google.com (74.125.203.102) 56(84) bytes of data.
 64 bytes from th-in-f102.1e100.net (74.125.203.102): icmp_seq=1 ttl=53 time=0.631 ms
@@ -77,15 +77,15 @@ PING google.com (74.125.203.102) 56(84) bytes of data.
 --- google.com ping statistics ---
 5 packets transmitted, 5 received, 0% packet loss, time 3999ms
 rtt min/avg/max/mdev = 0.330/0.437/0.631/0.103 ms
-````
+```
 
 It's even more magical if traceroute:
 
-````
+```
 $ traceroute google.com
 traceroute to google.com (64.233.189.113), 64 hops max
   1 64.233.189.113 0.826ms 0.313ms 0.435ms
-````
+```
 
 At present, the speed of China's connection to GCE Asia is not bad. It is billed by traffic, and the actual test can exceed 100M bandwidth. The location of the Asian region is in Taiwan, and the Chinese connection usually goes around Hong Kong, and then the route from Hong Kong to Taiwan takes Google's own backbone network, so the final result is only a dozen milliseconds slower than the Hong Kong server.
 

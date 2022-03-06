@@ -16,9 +16,9 @@ Before it can be used together, Matomo (formerly Piwik) needs to be installed fi
 
 Go to the Geolocation page in Settings and select Download a GeoIP database in the lower left corner of the page. After downloading, you can use GeoIP (Php), however this is slow. I recommend you to use GeoIP (PECL), if you are using cPanel, then you can enable GeoIP module <!-- more --> directly in Select PHP Version page, then go to `php.ini` to add or Edit this line:
 
-````
+```
 geoip.custom_directory = /Matomo/misc
-````
+```
 
 Then OK, select GeoIP (PECL) and that’s it!
 
@@ -32,16 +32,16 @@ When you choose Show per post stats, you can see the visitor information of this
 
 First, in order to correctly identify the user IP, you need to add the following line of code to `config/config.ini.php`.
 
-````
+```
 proxy_client_headers[] = "HTTP_CF_CONNECTING_IP"
-````
+```
 
 If your CloudFlare has IP Geolocation enabled, then you don't actually need to enable GeoIP on the host. Just create a `.htaccess` file in the root directory and add the following lines of code:
 
-````
+```
 RewriteEngine On
 RewriteBase /
 RewriteRule ^ - [E=GEOIP_COUNTRY_CODE:%{HTTP:CF-IPCountry}]
-````
+```
 
 Then go to the geographic location option of Matomo statistics. Now, your geographic location option can choose the third GeoIP (Apache), which is the fastest.

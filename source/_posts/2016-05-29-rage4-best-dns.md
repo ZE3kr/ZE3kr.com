@@ -1,5 +1,5 @@
 ---
-title: Comprehensive comparison of DNS services such as CloudXNS, Route 53, and Alibaba Cloud DNS
+title: Comprehensive Comparison of DNS Services such as CloudXNS, Route 53, and Alibaba Cloud DNS
 tags:
   - DNS
   - Website

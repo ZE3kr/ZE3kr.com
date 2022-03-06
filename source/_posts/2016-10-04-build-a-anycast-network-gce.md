@@ -78,16 +78,16 @@ After the creation is successful, you can see the following interface, where the
 
 The configuration here is only for the convenience of debugging, and there is no need to modify the Nginx configuration in actual use. Install Nginx on both hosts, then slightly modify the default configuration file: add two headers, then Reload.
 
-````
+```
 add_header X-Tlo-Hostname $hostname always;
 add_header Cache-Control "max-age=36000, public";
-````
+```
 
 ### Check if available
 
 Before testing Anycast, test both hosts for issues. For readability, I replaced curl's IP address with the hostname and omitted the Header field that is the same for both hosts
 
-````
+```
 $ curl anycast-us -I
 HTTP/1.1 200 OK
 …
@@ -98,11 +98,11 @@ HTTP/1.1 200 OK
 …
 ETag: "57ef2b3b-264"
 X-Tlo-Hostname: anycast-asia
-````
+```
 
 It can be seen that there is no problem with both hosts. Then, I use my computer to test that Anycast IP:
 
-````
+```
 $ curl anycast-ip -I
 HTTP/1.1 200 OK
 …
@@ -110,11 +110,11 @@ ETag: "57ef2b3b-264"
 X-Tlo-Hostname: anycast-asia
 Accept-Ranges: bytes
 Via: 1.1 google
-````
+```
 
 As you can see, this is what the anycast-asia host responds to. Now I continue to test this Anycast IP with another host in the US:
 
-````
+```
 $ curl anycast-ip -I
 HTTP/1.1 200 OK
 …
@@ -122,7 +122,7 @@ ETag: "57ef2cb9-264"
 X-Tlo-Hostname: anycast-us
 Accept-Ranges: bytes
 Via: 1.1 google
-````
+```
 
 At this point, the anycast-us host responds because the client is closer to the server. When accessing via Anycast IP, you can see the `Via: 1.1 google` field in the HTTP Header.
 
