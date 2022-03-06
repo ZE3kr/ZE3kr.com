@@ -1,3 +1,3 @@
 ---
-layout: widget/widget-recent-cn.pug
+layout: widget/widget-recent.pug
 ---

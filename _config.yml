@@ -9,12 +9,14 @@ description: ''
 keywords:
 author: James Guo
 language: en-US
+language1: en-US
+language2: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://ze3kr.com
-permalink: :year/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -127,7 +129,8 @@ feed:
 
 theme_config:
   title: James Guo (@ZE3kr)
-  short: 作品集
+  short: Portfolio
+  short_cn: 作品集
   short2: ZE3kr
   widget_url: /categories/Portfolio/
   widget_filter: Portfolio
