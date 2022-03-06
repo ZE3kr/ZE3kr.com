@@ -3,7 +3,7 @@ title: Azure DNS, NS1, Constellix, Comparison of Three International GeoDNS Serv
 tags:
   - CDN
   - DNS
-  - The internet
+  - Internet
 id: '3718'
 categories:
   - - Essay
@@ -45,7 +45,7 @@ You can also use two primary service providers and keep all records (including N
 
 The domain name `github.com.` uses both Route 53 and DYN services. This can be verified using the dig tool.
 
-````
+```
 $ dig github.com ns +short
 ns1.p16.dynect.net.
 ns2.p16.dynect.net.
@@ -55,11 +55,11 @@ ns-1283.awsdns-32.org.
 ns-421.awsdns-52.com.
 ns-1707.awsdns-21.co.uk.
 ns-520.awsdns-01.net.
-````
+```
 
 After inspection, the same records are also configured in the two DNS service providers.
 
-````
+```
 $ dig @ns1.p16.dynect.net.github.com a +short
 13.229.188.59
 13.250.177.223
@@ -68,7 +68,7 @@ $ dig @ns-1283.awsdns-32.org.github.com a +short
 13.229.188.59
 13.250.177.223
 52.74.223.119
-````
+```
 
 * * *
 
