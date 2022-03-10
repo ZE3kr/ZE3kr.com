@@ -146,7 +146,7 @@ theme_config:
   license: |-
     <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" target="_blank" rel="noopener nofollow">CC BY-SA 4.0</a>
 
-  highlight: false
+  highlight: true
 
   widgets:
     - tag
