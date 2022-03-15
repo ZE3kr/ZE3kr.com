@@ -104,19 +104,12 @@ theme: hexo-theme-claudia
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-
-responsive_images:
-  pattern: '**/*.+(png|jpg|jpeg)'
-  sizes:
-    small:
-      width: 800
-      withoutEnlargement: true
-    medium:
-      width: 1200
-      withoutEnlargement: true
-    large:
-      width: 2000
-      withoutEnlargement: true
+  type: git
+  repo:
+    local: ~/sync/ZE3kr.com.git,main
+    us2-gcp: ze3kr@us2-gcp.tloxygen.com:~/sync/ZE3kr.com.git,main
+    aliyun: ze3kr@bj1-aliyun.tloxygen.com:~/sync/ZE3kr.com.git,main
+    hk1-gcp: ze3kr@hk1-gcp.tloxygen.com:~/sync/ZE3kr.com.git,main
 
 feed:
   enable: true
