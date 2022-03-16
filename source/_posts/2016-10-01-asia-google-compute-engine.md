@@ -23,7 +23,7 @@ The process of creating a new GCE is very simple. You only need to customize the
 
 The f1-micro (0.6 GB) and g1-small (1.7GB) versions use shared cores (the rest of the configurations are independent cores), and according to Google, 0.60GB is 0.2 vCPU and 1.70GB is 0.5 vCPU. However, it supports Bursting, which means that it can use up to 1.0 vCPU in a short time. So what is 1.0 vCPU? Check cpuinfo, it is Intel(R) Xeon(R) CPU @ 2.50GHz. That is to say, these two versions can occupy up to 2.5GHz. But if used for a long time, the speed will be compressed to 0.5GHz and 1.75GHz.
 
-![Monitor Image](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/a35ea803-7cb3-4000-38fc-e8b80dcf7400/large)
+![Monitor Image](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/a35ea803-7cb3-4000-38fc-e8b80dcf7400/large)
 
 I installed monitoring software on my f1-micro, and compared the CPU usage given by GCE (dark blue) and the system itself monitored usage (light blue), and found that the CPU usage on the GCE chart is exactly 5 of the local statistics. That is to say, if the CPU usage seen locally is 20%, the GCE chart shows exactly 100%, the local is 20~100%, and the GCE chart is 100~500%, then it is called Bursting. Compared with other VPS, other VPS are almost all shared core, but you can't judge whether it is oversold. For example, if there are 10 users sharing a core, if those 10 people are constantly occupying the CPU, then your CPU speed will be lower than one-tenth of a single core. And Google's shared core guarantees a minimum speed (0.2 vCPU and 0.5 vCPU), even if other users use it hard, it can still guarantee you a certain speed.
 
@@ -33,7 +33,7 @@ First, you need to go to the [Create Instance](https://console.cloud.google.com/
 
 ### Basic Configuration
 
-![Some basic configuration](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/f231a98f-2a32-49d6-6f14-754617953e00/large)
+![Some basic configuration](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/f231a98f-2a32-49d6-6f14-754617953e00/large)
 
 ### Other Options Configuration Introduction
 
@@ -43,23 +43,23 @@ First, you need to go to the [Create Instance](https://console.cloud.google.com/
 * **IP forwarding**: It is recommended to turn off this function, it is almost never used, and turning it off helps to improve security
 * **SSH**: This may be different from some other VPSs, it does not automatically generate user passwords by default, so you must configure the public and private keys for remote login. Moreover, the user name at the end of the public key that you fill in is useful. The user name you fill in is the user name you need to log in. By default, root login is not supported unless you set the user name to root.
 
-![SSH config screenshot](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/c2c01644-20d1-4626-2b5c-7758d8d45e00/large)
+![SSH config screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/c2c01644-20d1-4626-2b5c-7758d8d45e00/large)
 
 ### Firewall Configuration
 
 GCE has the firewall turned on by default and cannot be turned off. It can only allow the traffic of the protocol and port you specify by yourself; after my own actual test, GCE can automatically filter the equivalent DDOS attack traffic. Since the firewall cannot be turned off, services similar to IPv6 Tunnel cannot be configured, so the current GCE cannot support IPv6, but I believe that Google will still enable IPv6 support in the future. In "Network", you can find [Firewall Rules](https://console.cloud.google.com/networking/firewalls/list), then you can [Add Firewall Rules](https://console.cloud.google. com/networking/firewalls/add). SSH, ICMP, etc. are already allowed by default (starting with default)
 
-![list of all rules I have enabled](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/ba0e6843-f6c3-4ca6-6f2c-c40a2bb4ae00/large)
+![list of all rules I have enabled](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/ba0e6843-f6c3-4ca6-6f2c-c40a2bb4ae00/large)
 
-![SNMP monitoring configuration](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/dd3fba9c-4342-4e7c-3168-e84ce4f20e00/large)
+![SNMP monitoring configuration](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/dd3fba9c-4342-4e7c-3168-e84ce4f20e00/large)
 
 I just need another host to access the SNMP monitoring, I don't need to expose it to the internet, so the IP is restricted.
 
-![Configuration for authoritative DNS server](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/e7c635ae-cfd7-4c50-00c1-06cc3b546f00/large)
+![Configuration for authoritative DNS server](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/e7c635ae-cfd7-4c50-00c1-06cc3b546f00/large)
 
 Some DNS requests are sent over TCP, so you need to enable TCP requests as well. If a target tag is configured, it is not a firewall rule that is applied to all instances by default, and the same tag needs to be configured on the instance.
 
-![add the same tag](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/ff0b4a21-ef43-429d-a742-b6e307d38800/large)
+![add the same tag](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/ff0b4a21-ef43-429d-a742-b6e307d38800/large)
 
 ## The Internet - as Great as Google Itself
 

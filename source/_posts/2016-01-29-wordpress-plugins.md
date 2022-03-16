@@ -76,7 +76,7 @@ This plugin enables WordPress to display auto-highlighted source code, with a va
 
 ## Slimpack
 
-![Slimpack screenshot](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/60c81119-cf51-482d-8603-17a82c163800/large)
+![Slimpack screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/60c81119-cf51-482d-8603-17a82c163800/large)
 
 This is a simplified version of Jetpack, without the bunch of useless features of Jetpack, no need to log in to wordpress.com, full-featured, and very easy to use.
 
@@ -86,7 +86,7 @@ This plugin can automatically generate `sitemap.xml` and `robots.txt` of the web
 
 ##WP-Piwik
 
-![WP-Piwik screenshot](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/86f98b39-867f-4be9-4c16-6ffc480f2200/large)
+![WP-Piwik screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/86f98b39-867f-4be9-4c16-6ffc480f2200/large)
 
 This plugin enables your entire website to have statistical functions, supports WordPress multi-site, and is recommended to be enabled on the entire network. About Piwik with WordPress, please refer to this article: [Use Piwik with WordPress to build a powerful statistical system](https://guozeyu.com/2016/01/piwik-wordpress/).
 
@@ -94,7 +94,7 @@ This plugin enables your entire website to have statistical functions, supports 
 
 This plugin enables your WordPress to generate a Podcast Feed, allowing you to have a podcast platform, and you can also submit this feed directly to places like iTunes.
 
-![screenshot of podcast software on iOS](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/4688a970-5350-4c93-f6ff-e1579be7ea00/large)
+![screenshot of podcast software on iOS](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/4688a970-5350-4c93-f6ff-e1579be7ea00/large)
 
 ## Exif Caption
 

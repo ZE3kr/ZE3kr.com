@@ -38,25 +38,25 @@ Since HTTPS sites must include a certificate for authentication, it is possible 
 
 For pages where all resources under the site use the HTTPS protocol, many browsers will have encryption prompts to inform users that the site is encrypted, making the entire site higher. However, I would like to remind users that not all pages using HTTPS are safe, and any website can easily apply for an SSL certificate, so it is still necessary to identify the domain name itself. However, it is more trustworthy for HTTPS sites that directly display their company name, because this kind of certificate needs to be verified by paper proof materials. Below are the encryption prompts for accessing some HTTPS sites using Chrome for Mac. Chrome's encryption prompt menu is divided into two parts, the first part is verification, and the latter part is encryption, which can usually be divided into the following four types:
 
-![1. HTTPS site showing company name](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/84826781-f6b9-478d-aefd-bf9dc2d31000/large)
+![1. HTTPS site showing company name](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/84826781-f6b9-478d-aefd-bf9dc2d31000/large)
 
-![2. Normal HTTPS site](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/c842a56d-da61-4705-e2f7-92deb3b83600/large)
+![2. Normal HTTPS site](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/c842a56d-da61-4705-e2f7-92deb3b83600/large)
 
 The first and second cases represent that a sufficiently secure encryption method is used (but the second one does not provide any Certificate Transparency information), but the signature level of the certificate is different, which has nothing to do with the encryption method and the security of the verification. In any case, it can be guaranteed that the certificate is not forged.
 
-![3. HTTPS site containing insecure resources](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/2fd32ff5-0e94-4bdc-49d8-432568887d00/large)
+![3. HTTPS site containing insecure resources](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/2fd32ff5-0e94-4bdc-49d8-432568887d00/large)
 
 The third case is containing unsafe resources, the appearance of the website may be changed, but the HTML text itself is reliable.
 
-![4. HTTPS sites with outdated authentication](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/1c40117a-2710-4bc5-e9a3-e35fa1fa1b00/large)
+![4. HTTPS sites with outdated authentication](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1c40117a-2710-4bc5-e9a3-e35fa1fa1b00/large)
 
 The fourth case is a certificate signed with SHA-1. Since SHA-1 is not secure enough, that is to say, the security of verification is not enough. Since the cost of forging such a certificate is getting lower and lower, it may not be secure. Encryption for such a site is still adequate.
 
-![5. HTTPS sites with problematic encryption protocols](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/1e3aad9e-45ec-4e04-f534-70f6268d7c00/large)
+![5. HTTPS sites with problematic encryption protocols](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1e3aad9e-45ec-4e04-f534-70f6268d7c00/large)
 
 The fifth case represents a possible man-in-the-middle attack (since no Certificate Transparency information is provided, and SHA-1 is used).
 
-![6. HTTPS sites using certificates signed by untrusted root certificates](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/d582e2e0-2993-49d9-32a7-ed3f1fe77700/large)
+![6. HTTPS sites using certificates signed by untrusted root certificates](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/d582e2e0-2993-49d9-32a7-ed3f1fe77700/large)
 
 The sixth case means that the website uses a certificate issued by an untrusted root certificate (or the certificate does not contain the current domain name). [Encryption tips for Chrome](https://support.google.com/chrome/answer/95617) In any case, I do not recommend you to use SHA-1 signed certificates, it is worth noting that the latest version of Safari can also choose SHA-1 signed certificates are not trusted anymore, SHA-1 is about to become obsolete.
 
@@ -113,9 +113,9 @@ For example, when visiting `http://tlo.xyz` for the first time, the browser will
 
 Go to [SSL Server Test](https://www.ssllabs.com/ssltest/index.html) to give your server's SSL configuration a score. oh, the difference
 
-![Rating by ze3kr.com](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/d603c2a4-3e7d-4434-699e-c311b375c900/large)
+![Rating by ze3kr.com](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/d603c2a4-3e7d-4434-699e-c311b375c900/large)
 
-![Rating by 12306.com](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/0acd3783-6399-43af-89eb-59ef7db4cf00/large)
+![Rating by 12306.com](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/0acd3783-6399-43af-89eb-59ef7db4cf00/large)
 
 ## Tips
 

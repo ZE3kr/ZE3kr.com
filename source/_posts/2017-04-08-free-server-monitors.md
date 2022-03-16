@@ -20,7 +20,7 @@ With server monitoring services, you can know how your website is running and wh
 
 StatusCake offers both free and paid monitoring services. The free version can create an unlimited number of HTTP(s), TCP, DNS, SMTP, SSH, Ping and Push protocol monitoring. The shortest monitoring period is 5 minutes. The reminder mainly supports E-mail and Webhook. The free version does not support monitoring server configuration information, so there is no need to install any software on the server.
 
-![Panel screenshot](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/a369a751-275e-4416-fb1c-75cd6f010d00/large)
+![Panel screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/a369a751-275e-4416-fb1c-75cd6f010d00/large)
 
 In addition, StatusCake supports Public Reporting, you can use StatusCake to build a monitoring page. It also supports embedding online rate images and web pages in your own web pages, which is very convenient.
 
@@ -30,7 +30,7 @@ In addition, StatusCake supports Public Reporting, you can use StatusCake to bui
 
 UptimeRobot also provides free monitoring services, supports HTTP(s), port detection, and Ping, and the monitoring period is as short as 5 minutes. There is also no support for monitoring server configuration information, so there is no need to install any software on the server. A maximum of 50 monitors can be created, and E-mail reminders are supported.
 
-![Panel screenshot](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5dc617eb-7fe8-46bd-a0e6-7a241e859800/large)
+![Panel screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5dc617eb-7fe8-46bd-a0e6-7a241e859800/large)
 
 Compared to StatusCake, it has less monitoring features, but the Public Reporting page is a bit prettier. Since many of the features of StatusCake are hardly used by individual webmasters, UptimeRobot is also a good alternative to StatusCake.
 
@@ -48,7 +48,7 @@ Monitoring treasure is a domestic monitoring service. The long-term free version
 
 Finally, I'd like to introduce the powerful Stackdriver that I recently started using. Stackdriver is a server monitoring service under Google Cloud Platform (hereinafter referred to as GCP), which supports monitoring, debugging, tracing, and logging. Among them, Uptime Check supports HTTP(s) and TCP, and the shortest monitoring period is **1 minute**. It supports E-mail, SMS and in-app alerts. Its Uptime Check is monitored from 6 regions around the world at the same time, and you can see the delay in each region. The speed used to detect the CDN would certainly be good.
 
-![Panel screenshot](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/b5ad0138-ab27-4b6b-f973-36debdd7bb00/large)
+![Panel screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/b5ad0138-ab27-4b6b-f973-36debdd7bb00/large)
 
 If you are using Google Compute Engine (hereinafter referred to as GCE) or other GCP services, then this service can also record server logs for you, with a monthly allowance of 5 GB, and $0.5/GB for each extra. In addition, it can monitor server performance and monitor various indicators of the server. Although the original GCE panel can also provide information such as CPU, but this requires the installation of Agent on the server, so it can provide richer and more accurate information. The installation process is as follows:
 
@@ -65,6 +65,6 @@ After all, it is Google's own service, and installation does not require any log
 
 [Observium](http://observium.org/) can be used to monitor various indicators of the server through snmp, including memory, storage, network card, etc. It can be [installed for free](http://observium.org/wiki/Installation) on its own server and requires MySQL and PHP environments. The official website gives an example of Apache. If you use Nginx, you do not need to install Apache.
 
-![panel screenshot](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/ceaf176d-5402-4fe7-8dcf-1b8105384600/large)
+![panel screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/ceaf176d-5402-4fe7-8dcf-1b8105384600/large)
  
 It displays the chart by generating PNG on the server, so the chart is very beautiful and delicate, but because it is not a vector diagram, it is difficult to achieve real-time incremental update and cannot see the value at a certain moment in detail. Observium can easily manage many servers. You can experience the [Online Demo](http://demo.observium.org).

@@ -146,8 +146,8 @@ ssl_stapling_verify on;
 
 Don't forget to `nginx -s reload` at the end, then [go to SSL Labs](https://www.ssllabs.com/ssltest/index.html) to check the configuration, you can see that the old browsers use RSA certificates (I The server has a dedicated IP, so it can also be accessed without SNI support):
 
-![Supported Clients](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5d7521dc-aac5-42ad-4fa4-55df51692000/large)
+![Supported Clients](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5d7521dc-aac5-42ad-4fa4-55df51692000/large)
 
 At this point, the ECDSA/RSA dual certificate configuration is complete, and you can view the certificate type in the browser:
 
-![ECDSA certificate](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/e8b62e3d-921d-453e-1b56-20cd930fa500/large)
+![ECDSA certificate](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/e8b62e3d-921d-453e-1b56-20cd930fa500/large)

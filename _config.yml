@@ -158,7 +158,7 @@ theme_config:
 
   user:
     name: James Guo
-    avatar: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/medium
+    avatar: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/medium
     location: Saint Louis
     footnotes: |-
       <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17005542号-2</a>
@@ -186,11 +186,11 @@ theme_config:
   appearance: auto # Default value is auto
 
   # Miscellaneous
-  favicon: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/thumbnail
+  favicon: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/thumbnail
   favicon_svg: /favicon.svg
 
   # picture of about page
-  about_pic: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/large
+  about_pic: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/large
 
 hide_posts:
   enable: true
