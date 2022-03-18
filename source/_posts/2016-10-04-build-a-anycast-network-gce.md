@@ -10,6 +10,7 @@ categories:
 date: 2016-10-04 09:27:00
 languages:
   zh-CN: https://guozeyu.com/2016/10/build-a-anycast-network-gce/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/4dcd6c19-bcaa-4d1a-2b5f-db00454a7c00/large
 ---
 
 Update February 2018: Due to the [free CloudFlare CNAME/IP access](https://cf.tlo.xyz), which is also Anycast, this site no longer uses Google Cloud CDN. [In the last article](https://guozeyu.com/2016/10/asia-google-compute-engine/), I briefly introduced the basic use of Google Compute Engine (GCE for short). In this article I will describe how to build an Anycast network with GCE and test its speed. To achieve this function, you need to use [Cross-Region Load Balancing](https://cloud.google.com/compute/docs/load-balancing/http/cross-region-example) (cross-region load balancing) , this function is equivalent to an HTTP(S) reverse proxy, so it can only perform load balancing for HTTP/HTTPS requests.

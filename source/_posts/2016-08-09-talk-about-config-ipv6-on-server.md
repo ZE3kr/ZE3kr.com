@@ -8,6 +8,7 @@ categories:
 date: 2016-08-09 20:32:16
 languages:
   zh-CN: https://guozeyu.com/2016/08/talk-about-config-ipv6-on-server/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/37eb5ae8-e9c1-425a-69c8-095c250da200/large
 ---
 
 On May 4 this year, Apple began to require new applications to support IPv6 DNS64/NAT64 networks, which means that Apple began to push IPv6 networks, on [Apple's official website](https://developer.apple.com/ library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1) has introduced some advantages of IPv6, mainly to be more friendly to mobile networks, And can improve some performance, reduce some transmission overhead. Recently, I have also fully implemented IPv6 on all my servers, fully supporting IPv6-Only networks.

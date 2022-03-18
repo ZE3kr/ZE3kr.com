@@ -10,6 +10,7 @@ categories:
 date: 2016-10-01 11:00:48
 languages:
   zh-CN: https://guozeyu.com/2016/10/asia-google-compute-engine/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/f231a98f-2a32-49d6-6f14-754617953e00/large
 ---
 
 The process of creating a new GCE is very simple. You only need to customize the configuration, select the operating system, configure the SSH Key, and then select Create. The whole process is very similar to VPS, but the customizable functions are far more than VPS.

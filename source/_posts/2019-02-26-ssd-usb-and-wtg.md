@@ -7,6 +7,7 @@ categories:
 date: 2019-02-26 16:49:52
 languages:
   zh-CN: https://guozeyu.com/2019/02/ssd-usb-and-wtg/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/3c40f228-fe6c-4fd9-fc85-45ef9fcfff00/large
 ---
 
 Recently, I have purchased an SSD U disk and an SSD hard disk. I have Windows To Go installed on my SSD USB stick and it works fine on my Mac device. This article will share my experience.

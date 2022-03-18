@@ -8,6 +8,7 @@ categories:
 date: 2016-10-04 09:26:00
 languages:
   zh-CN: https://guozeyu.com/2016/10/cloudflare-2016-new-feature/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5058d61b-4d56-41f8-fbe5-301aff832000/large
 ---
 
 Cloudflare finally added two blockbuster features in late 2016, namely:

@@ -9,6 +9,7 @@ categories:
 date: 2016-12-24 20:18:24
 languages:
   zh-CN: https://guozeyu.com/2016/12/domain-name-system/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/0068a9ee-7456-4512-25fe-e16929f99700/large
 ---
 
 The mission of DNS (Domain Name Resolution System) is to serve the bottom layer of content related to domain names. Is the core component of a domain name (eg `example.com`). The vast majority of things related to domain names are inseparable from it. for example:
