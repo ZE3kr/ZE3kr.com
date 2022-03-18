@@ -5,7 +5,7 @@
 # Site
 title: James Guo’s Portfolio (@ZE3kr)
 subtitle: ''
-description: ''
+description: 'Original articles, videos and pictures relevant to technology, programming, and photography.'
 keywords:
 author: James Guo
 language: en-US
@@ -161,6 +161,7 @@ theme_config:
     name: James Guo
     avatar: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/medium
     location: Saint Louis
+    description: 🎯 Focusing
     footnotes: |-
       <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17005542号-2</a>
 
