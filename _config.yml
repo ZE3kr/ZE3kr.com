@@ -148,7 +148,7 @@ theme_config:
   links:
     - title: Zeus Wang
       url: https://zeus.wang
-      domain: zeus.wang
+      domain: Zeus.Wang
 
   # social config
   social:
@@ -163,7 +163,7 @@ theme_config:
     location: Saint Louis
     description: 🎯 Focusing
     footnotes: |-
-      <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17005542号-2</a>
+      <a href="https://beian.miit.gov.cn/" target="_blank" class="has-text-grey">京ICP备17005542号-2</a>
 
   # documents: https://github.com/utterance/utterances
   # API config: https://utteranc.es/
