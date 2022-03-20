@@ -4,8 +4,8 @@ tags: []
 categories:
   - - uncategorized
 comments: false
-date: 2016-01-03 13:31:58
-layout: about
+date: false
+layout: post
 languages:
   zh-CN: https://guozeyu.com/about/
 ---
