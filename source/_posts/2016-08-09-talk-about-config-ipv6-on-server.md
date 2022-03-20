@@ -8,7 +8,7 @@ categories:
 date: 2016-08-09 20:32:16
 languages:
   zh-CN: https://guozeyu.com/2016/08/talk-about-config-ipv6-on-server/
-cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/37eb5ae8-e9c1-425a-69c8-095c250da200/large
+cover: https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/37eb5ae8-e9c1-425a-69c8-095c250da200/large
 ---
 
 On May 4 this year, Apple began to require new applications to support IPv6 DNS64/NAT64 networks, which means that Apple began to push IPv6 networks, on [Apple's official website](https://developer.apple.com/ library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1) has introduced some advantages of IPv6, mainly to be more friendly to mobile networks, And can improve some performance, reduce some transmission overhead. Recently, I have also fully implemented IPv6 on all my servers, fully supporting IPv6-Only networks.
@@ -26,7 +26,7 @@ $ dig -t AAAA `dig <domain> ns +short` +short
 
 Then check whether the output IP is all IPv6 addresses. If nothing is output, the DNS server does not support IPv6. Example of proper IPv6 configuration:
 
-![The root domain name com and the first-level domain name example.com are both correctly configured with IPv6-enabled DNS servers](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1396604b-98eb-4174-f1f5-d836d712d900/large)
+![The root domain name com and the first-level domain name example.com are both correctly configured with IPv6-enabled DNS servers](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/1396604b-98eb-4174-f1f5-d836d712d900/large)
 
 If you want to build your own DNS server, you can refer to [How to Build Your Own PowerDNS](https://guozeyu.com/2016/08/self-host-dns/). If your root domain name does not support IPv6, then you can contact the root domain name to have them support it, or change the root domain name. If your first-level domain name does not support IPv6, contact the DNS resolver to ask them to support it, or simply change it.
 
@@ -85,6 +85,6 @@ Note: The services listed in CDN and VPS all provide DNS that supports IPv6 and 
 
 When you have it configured, you can [test your website on IPv6 Test](http://ipv6-test.com/validate.php).
 
-![Test screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/37eb5ae8-e9c1-425a-69c8-095c250da200/large)
+![Test screenshot](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/37eb5ae8-e9c1-425a-69c8-095c250da200/large)
 
 Until now, it is still not necessary to support IPv6-Only network access in production, because there are very few IPv6-Only networks, generally compatible with IPv4, and many large websites do not support IPv6 at all. Apple's requirement to support IPv6-Only is only that the program needs to use IPv6 communication internally, and the program cannot have an IPv4 address, which can be used by operators that only assign IPv6 addresses (however, these operators still support IPv4).

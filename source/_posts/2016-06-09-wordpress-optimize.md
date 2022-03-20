@@ -109,4 +109,4 @@ However, if your blog has the HTTP/2 protocol enabled, there is no need to reduc
 
 Doing the above points can effectively speed up the speed. My website has achieved the above points. The timeline of this website is as follows under the condition of no-cache Wi-Fi in China:
 
-![Load including images in under 1 second](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/88a75a95-6438-4553-f5ab-b27ef97c9e00/large)
+![Load including images in under 1 second](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/88a75a95-6438-4553-f5ab-b27ef97c9e00/large)

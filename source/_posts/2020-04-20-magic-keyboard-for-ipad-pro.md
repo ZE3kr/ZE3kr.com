@@ -98,21 +98,21 @@ Weight: In terms of weight, this keyboard is much heavier than the Magic Keyboar
 
 ## Picture
 
-![Outer package, very compact](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/4d67c3b3-0c12-4a49-5378-2093229ada00/large)
+![Outer package, very compact](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/4d67c3b3-0c12-4a49-5378-2093229ada00/large)
 
-![Very concise instructions](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/05d1ee81-be9e-47b9-0df5-02a4f1f0ac00/large)
+![Very concise instructions](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/05d1ee81-be9e-47b9-0df5-02a4f1f0ac00/large)
 
-![The measured suspension height is 10mm - 23mm](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/4f910fed-a2df-4e83-7c09-653d3283b500/large)
+![The measured suspension height is 10mm - 23mm](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/4f910fed-a2df-4e83-7c09-653d3283b500/large)
 
-![New Debossed Apple Logo Design](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/32fdfc0a-2c1e-4eb8-e200-a81ecd618100/large)
+![New Debossed Apple Logo Design](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/32fdfc0a-2c1e-4eb8-e200-a81ecd618100/large)
 
-![Logo looming when laying flat (effect of iPad Pro 2018 installed, compatible but not perfect)](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/cdcc94d6-c0c5-4853-5a42-285568906800/large)
+![Logo looming when laying flat (effect of iPad Pro 2018 installed, compatible but not perfect)](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/cdcc94d6-c0c5-4853-5a42-285568906800/large)
 
-![Comparison with 15-inch MacBook Pro and Magic Trackpad for Mac (unmarked)](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/ee7787a6-ea62-4351-b6f1-df04b231cc00/large)
+![Comparison with 15-inch MacBook Pro and Magic Trackpad for Mac (unmarked)](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/ee7787a6-ea62-4351-b6f1-df04b231cc00/large)
 
-![Comparison with the 2018 15-inch MacBook Pro (it can be clearly seen that the iPad version is roughly **four times smaller**)](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/d2a97a56-dfda-47ca-49a0- ff39f3209600/large)
+![Comparison with the 2018 15-inch MacBook Pro (it can be clearly seen that the iPad version is roughly **four times smaller**)](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/d2a97a56-dfda-47ca-49a0- ff39f3209600/large)
 
-![Backlight comparison, both turn on the maximum brightness, and the brightness is similar. ](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1873d285-f8db-4a01-d53a-33c7b90f7a00/large)
+![Backlight comparison, both turn on the maximum brightness, and the brightness is similar. ](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/1873d285-f8db-4a01-d53a-33c7b90f7a00/large)
 
 ## Function Configuration
 
@@ -120,7 +120,7 @@ Weight: In terms of weight, this keyboard is much heavier than the Magic Keyboar
 
 My touchpad doesn't have the three-finger multitasking gesture enabled by default. You need to go to Settings, Home Screen and Dock, and Multitasking to find the "Gesture" switch to turn on. After opening, four fingers on the screen will also start multitasking.
 
-![Screenshot of three-finger gesture configuration](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/3d44d880-d321-4319-6309-215ac3cb4800/large)
+![Screenshot of three-finger gesture configuration](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/3d44d880-d321-4319-6309-215ac3cb4800/large)
 
 <figure>
   <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://iframe.videodelivery.net/5f6b04e0879e5840ff556e22c066dabd?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
@@ -129,7 +129,7 @@ My touchpad doesn't have the three-finger multitasking gesture enabled by defaul
 
 ### Pointer Animation and Touchpad Inertia
 
-![set two settings in accessibility, pointer control](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/457851cf-3a12-4d62-11db-00c439240200/large)
+![set two settings in accessibility, pointer control](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/457851cf-3a12-4d62-11db-00c439240200/large)
 
 If you turn on **pointer animation**, when you move over the button, the pointer will disappear, replaced by the adsorption effect of the button highlight. This feature can be turned off, which is closer to the experience on macOS.
 

@@ -16,7 +16,7 @@ The feature of this feature I developed is: when the commenter is replied, the e
 
 The content of the email is concise, without extra useless things, and will not be recognized as Spam.
 
-![Example of delivery](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/cf5f85cb-301b-440e-8a34-23c54c434700/large)
+![Example of delivery](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/cf5f85cb-301b-440e-8a34-23c54c434700/large)
 
 All code has been put on [GitHub Gist](https://gist.github.com/ZE3kr/8c51a6349462935cefd2e636e96e93f8).
 

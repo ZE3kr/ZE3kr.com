@@ -9,7 +9,7 @@ categories:
 date: 2016-08-21 10:52:13
 languages:
   zh-CN: https://guozeyu.com/2016/08/install-nginx-1-11-on-ubuntu/
-cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/e8b62e3d-921d-453e-1b56-20cd930fa500/large
+cover: https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/e8b62e3d-921d-453e-1b56-20cd930fa500/large
 ---
 
 The software source that comes with Ubuntu 16.04.01 is Nginx 1.10.0, but there are bugs in the HTTP/2 module of this version of Nginx, [see here for details](https://imququ.com/post/nginx-http2 -post-bug.html). Now Nginx 1.12 Stable has been launched, just install the Stable version directly. Update 2018-06: If you are using Ubuntu 18.04 or later, the default Nginx version (1.14) from the system's repositories is sufficient.
@@ -147,8 +147,8 @@ ssl_stapling_verify on;
 
 Don't forget to `nginx -s reload` at the end, then [go to SSL Labs](https://www.ssllabs.com/ssltest/index.html) to check the configuration, you can see that the old browsers use RSA certificates (I The server has a dedicated IP, so it can also be accessed without SNI support):
 
-![Supported Clients](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5d7521dc-aac5-42ad-4fa4-55df51692000/large)
+![Supported Clients](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/5d7521dc-aac5-42ad-4fa4-55df51692000/large)
 
 At this point, the ECDSA/RSA dual certificate configuration is complete, and you can view the certificate type in the browser:
 
-![ECDSA certificate](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/e8b62e3d-921d-453e-1b56-20cd930fa500/large)
+![ECDSA certificate](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/e8b62e3d-921d-453e-1b56-20cd930fa500/large)

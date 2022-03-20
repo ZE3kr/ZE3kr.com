@@ -27,7 +27,7 @@ You can drag blocks directly to achieve effects such as dragging natural segment
 
 The new editor is compatible with the boss editor. To use the old editing mode, you can do this by inserting one or more Classic Blocks. This classic block is on par with other blocks in the new editor, such as natural paragraph blocks, subtitle blocks, etc. Classic blocks can contain one or more natural paragraphs, subheadings, and for simple typography, it can replace the latest block editor. When using classic blocks, you can still see the familiar toolbar.
 
-![Classic Block](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/3c1dd583-f116-4d73-dadf-b81986f82b00/large)
+![Classic Block](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/3c1dd583-f116-4d73-dadf-b81986f82b00/large)
 
 Classic Block Screenshot
 
@@ -80,13 +80,13 @@ In addition, there is now an Embed function, which can directly embed third-part
 
 In order to better match all the typographic features of the new editor, WordPress also launched a new 2019 default theme. [Details](https://make.wordpress.org/core/2018/10/16/introducing-twenty-nineteen/)
 
-![Screenshot of article interface](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/b26e6735-e9c6-46a4-3c61-63dfb9f93d00/large)
+![Screenshot of article interface](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/b26e6735-e9c6-46a4-3c61-63dfb9f93d00/large)
 
 Screenshot of the theme homepage
 
 Just like the default themes in the past, the new WordPress themes are also very versatile. However I feel that the new 2019 theme is not as clean as the previous 2017 theme (the one this blog is using).
 
-![Screenshot of article interface](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/691e4199-50da-4c57-d46a-1399b5801b00/large)
+![Screenshot of article interface](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/691e4199-50da-4c57-d46a-1399b5801b00/large)
 
 ## Should it be Upgraded? How to Upgrade?
 

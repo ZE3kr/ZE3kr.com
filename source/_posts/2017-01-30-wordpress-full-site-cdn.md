@@ -55,23 +55,23 @@ Features of CloudFront as a site-wide CDN:
 
 First go to the [CloudFront Control Panel](https://console.aws.amazon.com/cloudfront/home), click "Create Distribution", select "Web", and configure something like the following. **Origin site configuration** Note that the Origin Domain Name must be a full domain name, and if HTTPS is used, a valid certificate must be configured under that domain name.
 
-![CloudFront basic configuration screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1a7f2efe-1d91-458a-12dc-de586ea9ef00/large)
+![CloudFront basic configuration screenshot](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/1a7f2efe-1d91-458a-12dc-de586ea9ef00/large)
 
 **Cache configuration**, I added Host to the Header whitelist, and Cookie to add `wordpress*` and `wp*` to the whitelist.
 
-![CloudFront detailed configuration screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/9170b325-17e1-4263-6083-633d9320bf00/large)
+![CloudFront detailed configuration screenshot](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9170b325-17e1-4263-6083-633d9320bf00/large)
 
 Then **front-end configuration**, the certificate point "Request or Import a Certificate with ACM" can apply for a certificate issued by Amazon. Fill in the domain name of your website under CNAMEs.
 
-![CloudFront front-end configuration screenshot](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/692a51b9-2e24-481b-ce2e-a0de07dfdd00/large)
+![CloudFront front-end configuration screenshot](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/692a51b9-2e24-481b-ce2e-a0de07dfdd00/large)
 
 Note that it may take less than an hour after creation to be accessed. In order to use the root domain name with CloudFront, I also had to change the DNS resolution of Route 53. Since this is a very high-precision GeoDNS, it is necessary to submit the resolution server to the major DNS cache servers, so that these cache servers can be added to the EDNS Client Subnet-enabled whitelist for your DNS cache server. Fortunately, Route 53 is one of the most popular GeoDNS, so if you use the NS records it gives you and don't customize it, you don't have to worry about it. When configuring the root domain name, simply select the A record, open Alias, and fill in the CloudFront domain name. If you want to support IPv6, then create another AAAA record. This way if you parse from the outside, you will parse directly to A records and AAAA records, not CNAMEs!
 
-![Screenshot 1 of CloudFront with Route 53](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/550e246f-35ba-42ce-9a01-f4510dbf3c00/large)
+![Screenshot 1 of CloudFront with Route 53](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/550e246f-35ba-42ce-9a01-f4510dbf3c00/large)
 
 At this point, CloudFront is configured. CloudFront now automatically caches pages for about a week, so you need to configure the cache to clear when articles are updated. I wrote a plugin that cleans all caches when there is an article update/theme modification/kernel update, cleans the article page when there is a new comment, and controls the refresh frequency to 10 minutes (this is due to the fact that CloudFront refreshes the cache is surprisingly slow, and Flushing the cache is only free for the first thousand times). Welcome to [use a plugin I made](https://wordpress.org/plugins/full-site-cache-cf/). However, the access speed of CloudFront in China is not as good as the GCE I used before. What should I do? It doesn't matter, Route 53 can use GeoDNS, I still resolve China and Taiwan to the original GCE, so the speed is only improved. Note that if you want to do this, the original server must also have a valid certificate (similarly, if your domain name has been filed, you can set it as the IP of the domestic CDN to achieve the effect of mixing domestic and international CDNs). CloudFront will affect the issuance of Let's Encrypt, so you need to continue to implement port 80 file authentication by setting Behaviors and multiple origin servers. In the actual test, the IPv4 recognition rate of Route 53 for China is 100%, and the IPv6 recognition rate is not good.
 
-![Screenshot 2 of CloudFront with Route 53](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/6b6bd584-041b-4a72-1349-bd1829b3de00/large)
+![Screenshot 2 of CloudFront with Route 53](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/6b6bd584-041b-4a72-1349-bd1829b3de00/large)
 
 ### Actual Usage
 
@@ -124,17 +124,17 @@ That's right, the number of IPs that CloudFront assigns is too many, and it will
 
 Only the speed of international countries is compared here.
 
-![Origin speed](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/f4fc9c84-05a8-4925-b6fe-16e7ffd60300/large)
+![Origin speed](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/f4fc9c84-05a8-4925-b6fe-16e7ffd60300/large)
 
-![CDN speed](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/3170443b-593f-44ad-016f-9e6bfe087600/large)
+![CDN speed](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/3170443b-593f-44ad-016f-9e6bfe087600/large)
 
 #### HTTPs Get Before and After Startup
 
 It is only compared to the speed of international countries also.
 
-![Origin speed](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/076b09e9-37e7-478d-4df3-77a0bc18ee00/large)
+![Origin speed](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/076b09e9-37e7-478d-4df3-77a0bc18ee00/large)
 
-![CDN speed](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/d6a047f9-2b60-4d68-105f-b47105553c00/large)
+![CDN speed](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/d6a047f9-2b60-4d68-105f-b47105553c00/large)
 
 TTFB is almost fully green after CDN is launched, and the time to establish TCP and TLS is significantly reduced.
 
@@ -142,7 +142,7 @@ TTFB is almost fully green after CDN is launched, and the time to establish TCP 
 
 The SSL certificate issued by CloudFront for free is a **multi-domain wildcard certificate** (Wildcard SAN), and the main name is customized, which is higher than Cloudflare's shared certificate. Such certificates cost $10 per month on Cloudflare. Such certificates are hard to buy in the market, and the price depends on the number of domain names, ranging from thousands to tens of thousands a year. However, this certificate can only be used on AWS' CloudFront and load balancers.
 
-![Amazon Certificate](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/cf5ba387-927b-4147-c1f6-c425f9b2af00/large)
+![Amazon Certificate](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/cf5ba387-927b-4147-c1f6-c425f9b2af00/large)
 
 CloudFront's long certificate chain affects TLS times, but since it's also a CDN, this reduces TLS times to almost negligible levels. The main reason is that the Amazon Root CA is not directly trusted on macOS. If you trust it directly, you don't need to do this.
 
@@ -182,7 +182,7 @@ Features of Cloudflare as a site-wide CDN:
 
 One difference is that Cloudflare issues a shared certificate, which looks like this:
 
-![Cloudflare Shared Certificate](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/cf5ba387-927b-4147-c1f6-c425f9b2af00/large)
+![Cloudflare Shared Certificate](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/cf5ba387-927b-4147-c1f6-c425f9b2af00/large)
 
 I think Cloudflare issues shared certificates for two reasons. One is a legacy issue: Cloudflare Professional Edition's SSL certificate service supports clients without SNI, and in order to support clients without SNI, only one certificate can be configured for one IP. Therefore, a shared certificate is used to save IP resources. And now the free version also has SSL. Although the free version uses SNI technology, the certificate cannot be more advanced than the paid version, so a shared SSL certificate is still used; the second is to add more value-added services, which is now available on Cloudflare Purchase Dedicated SSL Certificates and implement independent certificates (if the paid version is enabled, clients that do not support SNI still fall back to the shared certificate, so they are still compatible with devices that do not support SNI).
 
