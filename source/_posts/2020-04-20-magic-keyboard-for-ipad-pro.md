@@ -123,7 +123,7 @@ My touchpad doesn't have the three-finger multitasking gesture enabled by defaul
 ![Screenshot of three-finger gesture configuration](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/3d44d880-d321-4319-6309-215ac3cb4800/large)
 
 <figure>
-  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://iframe.videodelivery.net/5f6b04e0879e5840ff556e22c066dabd?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
+  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://cdn.ze3kr.com/iframe/5f6b04e0879e5840ff556e22c066dabd?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
   <figcaption>Three finger gesture screen recording</figcaption>
 </figure>
 
@@ -134,24 +134,24 @@ My touchpad doesn't have the three-finger multitasking gesture enabled by defaul
 If you turn on **pointer animation**, when you move over the button, the pointer will disappear, replaced by the adsorption effect of the button highlight. This feature can be turned off, which is closer to the experience on macOS.
 
 <figure>
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://iframe.videodelivery.net/b0f6489638fab333b9767877fbf92a8c?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true">< /iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.ze3kr.com/iframe/b0f6489638fab333b9767877fbf92a8c?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true">< /iframe></div>
   <figcaption>Turn on pointer animation</figcaption>
 </figure>
 
 <figure>
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://iframe.videodelivery.net/8fe64137c49bc848add5dc89e2ffb2c6?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.ze3kr.com/iframe/8fe64137c49bc848add5dc89e2ffb2c6?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>Turn off pointer animation</figcaption>
 </figure>
 
 Similarly, the default iPadOS will turn on touchpad inertia, and turning this feature off will be closer to the experience on macOS.
 
 <figure>
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://iframe.videodelivery.net/26a655bb13c602c45ade0bc57c12eb64?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style=" border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen=" true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.ze3kr.com/iframe/26a655bb13c602c45ade0bc57c12eb64?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style=" border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen=" true"></iframe></div>
   <figcaption>Enable touchpad inertia</figcaption>
 </figure>
 
 <figure>
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://iframe.videodelivery.net/465c56565c440f3271f2b8ee4352df8a?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style=" border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen=" true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.ze3kr.com/iframe/465c56565c440f3271f2b8ee4352df8a?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style=" border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen=" true"></iframe></div>
   <figcaption>Turn off touchpad inertia</figcaption>
 </figure>
 
