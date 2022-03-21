@@ -6,7 +6,7 @@ tags:
   - Internet
 id: '3718'
 categories:
-  - - Essay
+  - - Technology
 date: 2018-11-15 11:45:54
 languages:
   zh-CN: https://guozeyu.com/2018/11/azure-dns-ns1-constellix-compare/

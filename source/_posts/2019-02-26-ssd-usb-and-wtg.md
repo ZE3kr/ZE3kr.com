@@ -1,6 +1,7 @@
 ---
 title: SSD USB, Windows To Go and Mac
-tags: []
+tags:
+  - Hardware
 id: '3776'
 categories:
   - - Technology
