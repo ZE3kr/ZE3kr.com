@@ -13,6 +13,6 @@ jobs:
         host: us2-gcp.tloxygen.com
         username: ze3kr
         key: ${{ secrets.KEY }}
-        fingerprint: SHA256:V0QNBz2Gz4XcqNfrTxbPmmSyKDqDNNbLc9LTqCg9M4k
+        fingerprint: SHA256:HPpFfjEmCHsGE3SENZkV4aDlBQlty+6wLI4AULeyrKE
         script: |-
           /usr/bin/git -C /home/ze3kr/sync/ZE3kr.com pull
