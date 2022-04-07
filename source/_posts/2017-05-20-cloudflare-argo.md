@@ -20,30 +20,30 @@ This website has always implemented foreign parsing to CloudFront for foreign ac
 
 Cloudflare has many nodes, but sometimes too many nodes are not a good thing - **nodes between most CDNs are relatively independent**. The first thing to understand is how CDNs work. CDNs generally do not pre-cache content, but instead cache cacheable content while acting as a proxy for visitors to access. Take this site as an example, this site uses [Hong Kong virtual host] (https://domain.tloxygen.com/web-hosting/index.php), if a visitor from London, UK visits my website, then Since my website is cacheable, it will connect to the London node and be cached there. So what if a visitor from Manchester, UK visited? Since the CDN has another node in Manchester, the visitor will directly connect to the Manchester node. However, there is no cache in Manchester, so the node will return to Hong Kong. And obviously, if Manchester goes back to London, it would be faster to use London's cache. To sum up, if resources can be selectively obtained from other nodes, the TTFB will be lower and the cache hit rate will be increased accordingly. But the general CDN will not do this, because the nodes are independent of each other, and the nodes do not know whether the other party has cached. The general solution is to first pass a few nodes between the node and the source station. These nodes may only be distributed in a few states. For example, there is only one such node in the entire Europe. In this case, after a visitor in London visits, it is also cached by the node in Europe. In this way, when visitors from other parts of Europe connect to a node that does not have a cache, those nodes will directly serve the cache of that node in Europe. CloudFront and KeyCDN take advantage of this technology. How Cloudflare is implemented they do not officially explain in detail. However, in the actual test, no significant increase in the cache rate was observed, which is far less than the effect of CloudFront. The figure below is the TTFB tested by these nodes, and the requests are initiated one by one.
 
-![First access test of cacheable content on Cloudflare, Argo enabled](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/8de6cedb-1c45-4213-70ad-1ddcdd41fe00/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/25a9957c-de0d-4f7a-d3d9-d3366332ba01/extra" alt="First access test of cacheable content on Cloudflare, Argo enabled" width="1940" height="1038"/>
 
-![CloudFront is better than Cloudflare](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/f8f3f0a4-e1b0-4f56-8b44-f2edca0f3900/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/86d28375-4541-48f8-a2cd-b2989cba5a01/extra" alt="CloudFront is better than Cloudflare" width="1934" height="1046"/>
 
 ## Lower TTFB, Argo Smart Routing
 
 Usually, the connection between the node and the source station is direct, and the network between them depends largely on the network access of the host. However, with Argo Smart Routing, Cloudflare uses its own routing. Image via Cloudflare.com.
 
-![Argo Smart Routing dynamic map](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/e391b842-4665-4aa5-b14a-02bcf8153300/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/256fae72-3104-4b59-4c6a-fe18314b5801/extra" alt="Argo Smart Routing dynamic map" width="960" height="375"/>
 
 When requesting a test address from abroad, the via field is the IP address of the connection between Cloudflare and this site. Through the GeoIP service query, it is found that it is the IP of Hong Kong. Cloudflare establishes a long connection between its own nodes, and also establishes a connection with the origin site in advance on the server closest to the origin site. In this way, the time required for the first connection can be greatly reduced. If the back-to-source is HTTPS, the effect is more obvious. Another test address of mine does not have this function turned on. For comparison, its back-to-source and the IP established by this site are not from Hong Kong.
 
 ### Comparison of TTFB with Flexible SSL
 
-![Argo not enabled](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/b914afdf-b3a1-4116-6f3c-ef8bf6de6500/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/46c49e08-8914-4b54-f8e7-84137dab0c01/extra" alt="Argo disabled" width="1946" height="1050"/>
 
-![Argo enabled](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/96b667b0-8f12-4dfc-ad2a-ae9e6fe16900/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/cf1edeb1-09e8-4e1e-438c-e8edb6ee0401/extra" alt="Argo enabled" width="1978" height="1060"/>
 
 ### Comparison of TTFB with Full SSL
 
 
-![Argo not enabled and Full SSL](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/effedd42-2a20-49bf-083c-7d4ac1bd7500/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/670536bb-6c79-403a-246e-7f479deba501/extra" alt="Argo disabled and Full SSL" width="1928" height="1040"/>
 
-![Argo enabled and Full SSL](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/7951369b-666a-4073-ffe1-5e754b050600/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/09b3a372-cf2f-434a-59fc-f86ec28a5201/extra" alt="Argo enabled and Full SSL" width="1940" height="1030"/>
 
 The speed has indeed improved to a certain extent, but it is not particularly obvious, and it seems that some nodes are more unstable after opening it - originally a relatively stable speed, after opening this, some nodes suddenly become faster and slower. It seems that the best way to speed up is half-pass encryption.
 
@@ -51,11 +51,11 @@ The speed has indeed improved to a certain extent, but it is not particularly ob
 
 Railgun is Cloudflare's ultimate acceleration solution for Business and Enterprise customers. To use it, you first need to upgrade your website plan to Business or Enterprise, then you need to install the necessary software on your server and configure it on Cloudflare. This is equivalent to a bilateral acceleration software. The implementation principle is to let the server establish a long-term TCP encrypted connection with Cloudflare, using Railgun's unique protocol instead of the HTTP protocol, which obviously reduces the connection delay. In addition, it also caches dynamic pages: considering that most dynamic pages contain a lot of the same HTML information, when the user requests a new page, the server will only send the content that has changed. This is equivalent to a multiple Gzip compression.
 
-![Open Argo screenshot](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/f82ebb62-e26e-4073-ec26-1ba0c4082700/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/c836e291-5e2d-4d55-371a-1599cf34e101/extra" alt="Enable Railgun screenshot" width="1125" height="1310"/>
 
 Officially, using Railgun can achieve 99.6% compression ratio and achieve twice the speed. The actual experience is also true:
 
-![Railgun enabled and Full SSL](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/19978f5e-0671-42c4-6555-313c7400c100/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/75969fec-6ff1-4bdf-204b-a64dfd5d2901/extra" alt="Railgun enabled and Full SSL" width="1982" height="1060"/>
 
 The acceleration effect of Railgun is still very obvious, obviously stronger than Argo.
 
