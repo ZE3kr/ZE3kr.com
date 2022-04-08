@@ -147,7 +147,16 @@ theme_config:
     - tag
     - category
     - profile
-    # - adsense
+    - adsense
+
+  adb: |-
+    <h3>Oh No!😭 You blocked the ads on this site</h3>
+    <p>This site relies on ads to generate revenue. Please consider turning off the ad blocking plugin to help this site continue. This content will automatically disappear after disabling. <a href="/ads/">More</a></p>
+    <picture>
+      <source src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/2ebc204f-414d-4d7d-7352-092f594df501/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
+      <source src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/a23c92bc-4e8a-4e20-4671-939a3005c301/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
+      <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/a23c92bc-4e8a-4e20-4671-939a3005c301/extra" alt="Example of turning off ad blocking" width="1152" height="756" data-raw="true"/>
+    </picture>
 
   ads:
     - title: TlOxygen Domain Registrar
