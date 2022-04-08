@@ -147,6 +147,31 @@ theme_config:
     - tag
     - category
     - profile
+    # - adsense
+
+  ads:
+    - title: TlOxygen Domain Registrar
+      link: https://tloxygen.com
+      content: |-
+        <ul>
+          <li>Managed by This Site</li>
+          <li>500+ TLDs</li>
+          <li>PayPal/Card</li>
+          <li>Privacy Protection</li>
+          <li>Business Email & Catch-All</li>
+          <li>DS Record for DNSSEC</li>
+        </ul>
+    - title: BuyVM Dedicated Server
+      link: https://my.frantech.ca/aff.php?aff=5211
+      content: |-
+        <ul>
+          <li>Use by This Site</li>
+          <li>3.50+ GHz CPU</li>
+          <li>1000 Mbps Unmetered</li>
+          <li>IPv4/IPv6/AnyCast</li>
+          <li>1024MB RAM @ $3.5/mo</li>
+          <li>Extra Storage at $5.0/TB</li>
+        </ul>
 
   links:
     - title: Zeus Wang
