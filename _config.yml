@@ -159,30 +159,27 @@ theme_config:
     </picture>
 
   ads:
-    - title: TlOxygen Domain Registrar
+    - title: Domain Registrar
       link: https://tloxygen.com
       content: |-
+        <img class="mb-1" src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/13dcc12b-1cda-4049-997c-555726b9bd01/medium" width="800" height="667"/>
         <ul>
-          <li>Managed by This Site</li>
           <li>500+ TLDs</li>
           <li>PayPal/Card</li>
           <li>Privacy Protection</li>
-          <li>Business Email & Catch-All</li>
+          <li>Free Email & Forward All</li>
           <li>DS Record for DNSSEC</li>
-        </ul>
-    - title: BuyVM Dedicated Server
-      link: https://my.frantech.ca/aff.php?aff=5211
-      content: |-
-        <ul>
-          <li>Use by This Site</li>
-          <li>3.50+ GHz CPU</li>
-          <li>1000 Mbps Unmetered</li>
-          <li>IPv4/IPv6/AnyCast</li>
-          <li>1024MB RAM @ $3.5/mo</li>
-          <li>Extra Storage at $5.0/TB</li>
         </ul>
 
   links:
+    - title: Disable Ad Block
+      url: /ads/
+      domain: Thanks
+      tloC: true
+    - title: Domain Registrar
+      url: https://tloxygen.com
+      domain: Free Email
+      tloB: true
     - title: Zeus Wang
       url: https://zeus.wang
       domain: Zeus.Wang
