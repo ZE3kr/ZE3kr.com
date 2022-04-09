@@ -8,6 +8,7 @@ date: false
 layout: post
 languages:
   zh-CN: https://guozeyu.com/about/
+adb: false
 ---
 
 ZE3kr is the ID used by James Guo to publish content. The published contents include original articles, videos, pictures, short essays and app recommendations about technology and photography.
