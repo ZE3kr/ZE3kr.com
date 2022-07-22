@@ -76,7 +76,7 @@ This plugin enables WordPress to display auto-highlighted source code, with a va
 
 ## Slimpack
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/7d249f7d-3af2-4b01-e0c0-fa15f5508401/extra" alt="Slimpack screenshot" width="1910" height="1414"/>
+<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/7d249f7d-3af2-4b01-e0c0-fa15f5508401/extra" alt="Slimpack screenshot" width="1910" height="1414"/>
 
 This is a simplified version of Jetpack, without the bunch of useless features of Jetpack, no need to log in to wordpress.com, full-featured, and very easy to use.
 
@@ -86,7 +86,7 @@ This plugin can automatically generate `sitemap.xml` and `robots.txt` of the web
 
 ##WP-Piwik
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/7b6a9445-3301-4439-f287-67c86b1c3a01/extra" alt="WP-Piwik screenshot" width="2114" height="968"/>
+<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/7b6a9445-3301-4439-f287-67c86b1c3a01/extra" alt="WP-Piwik screenshot" width="2114" height="968"/>
 
 This plugin enables your entire website to have statistical functions, supports WordPress multi-site, and is recommended to be enabled on the entire network. About Piwik with WordPress, please refer to this article: [Use Piwik with WordPress to build a powerful statistical system](https://guozeyu.com/2016/01/piwik-wordpress/).
 
@@ -94,7 +94,7 @@ This plugin enables your entire website to have statistical functions, supports 
 
 This plugin enables your WordPress to generate a Podcast Feed, allowing you to have a podcast platform, and you can also submit this feed directly to places like iTunes.
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/20918d5d-5a40-4cc8-97b7-13f1e871f901/extra" alt="Screenshot of podcast app on iOS" width="750" height="1334"/>
+<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/20918d5d-5a40-4cc8-97b7-13f1e871f901/extra" alt="Screenshot of podcast app on iOS" width="750" height="1334"/>
 
 ## Exif Caption
 
