@@ -160,7 +160,7 @@ theme_config:
 
   ads:
     - title: Domain Registrar
-      link: https://tloxygen.com
+      link: https://www.tloxygen.com
       content: |-
         <img class="mb-1" src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/13dcc12b-1cda-4049-997c-555726b9bd01/medium" width="800" height="667"/>
         <ul>
@@ -197,8 +197,6 @@ theme_config:
     avatar: https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/medium
     location: Saint Louis
     description: 🎯 Focusing
-    footnotes: |-
-      <a href="https://beian.miit.gov.cn/" target="_blank" class="has-text-grey">京ICP备17005542号-2</a>
 
   # documents: https://github.com/utterance/utterances
   # API config: https://utteranc.es/
