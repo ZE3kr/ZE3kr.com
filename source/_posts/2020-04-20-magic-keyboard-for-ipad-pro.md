@@ -98,21 +98,21 @@ Weight: In terms of weight, this keyboard is much heavier than the Magic Keyboar
 
 ## Picture
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/3baeccde-3058-49b8-2cee-2c962ba56d01/extra" alt="Outer package, very compact" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/3baeccde-3058-49b8-2cee-2c962ba56d01/extra" alt="Outer package, very compact" width="2560" height="1920"/>
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/776acd49-214d-4dd2-d9f6-c4474c32af01/extra" alt="Very concise instructions" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/776acd49-214d-4dd2-d9f6-c4474c32af01/extra" alt="Very concise instructions" width="2560" height="1920"/>
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/1f1a5d91-264c-4049-1b21-e40337049d01/extra" alt="The measured suspension height is 10mm - 23mm" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/1f1a5d91-264c-4049-1b21-e40337049d01/extra" alt="The measured suspension height is 10mm - 23mm" width="2560" height="1920"/>
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/868320b1-bd06-4aa1-facd-3beea83a9f01/extra" alt="New Debossed Apple Logo Design" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/868320b1-bd06-4aa1-facd-3beea83a9f01/extra" alt="New Debossed Apple Logo Design" width="2560" height="1920"/>
 
 <img src="Logo looming when laying flat (effect of iPad Pro 2018 installed, compatible but not perfect)" alt="keyboard-5.jpeg" width="2560" height="1920"/>
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/bec8af8f-2142-4423-a257-39eeef5b3b01/extra" alt="Comparison with 15-inch MacBook Pro and Magic Trackpad for Mac (unmarked)" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/bec8af8f-2142-4423-a257-39eeef5b3b01/extra" alt="Comparison with 15-inch MacBook Pro and Magic Trackpad for Mac (unmarked)" width="2560" height="1920"/>
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/0bf6fc87-6d38-4b8d-06d2-1c4a98760e01/extra" alt="Comparison with the 2018 15-inch MacBook Pro (it can be clearly seen that the iPad version is roughly four times smaller)" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/0bf6fc87-6d38-4b8d-06d2-1c4a98760e01/extra" alt="Comparison with the 2018 15-inch MacBook Pro (it can be clearly seen that the iPad version is roughly four times smaller)" width="2560" height="1920"/>
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/0a87e0c7-9b14-475b-acfe-e5e9e688d801/extra" alt="Backlight comparison, both turn on the maximum brightness, and the brightness is similar." width="2560" height="1440"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/0a87e0c7-9b14-475b-acfe-e5e9e688d801/extra" alt="Backlight comparison, both turn on the maximum brightness, and the brightness is similar." width="2560" height="1440"/>
 
 ## Function Configuration
 
@@ -120,7 +120,7 @@ Weight: In terms of weight, this keyboard is much heavier than the Magic Keyboar
 
 My touchpad doesn't have the three-finger multitasking gesture enabled by default. You need to go to Settings, Home Screen and Dock, and Multitasking to find the "Gesture" switch to turn on. After opening, four fingers on the screen will also start multitasking.
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/d34df181-d9db-46e2-14e2-788ee19f6b01/extra" alt="Screenshot of three-finger gesture configuration" width="2388" height="1668"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/d34df181-d9db-46e2-14e2-788ee19f6b01/extra" alt="Screenshot of three-finger gesture configuration" width="2388" height="1668"/>
 
 <figure class="my-video">
   <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://iframe.cloudflarestream.com/5f6b04e0879e5840ff556e22c066dabd?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
@@ -129,7 +129,7 @@ My touchpad doesn't have the three-finger multitasking gesture enabled by defaul
 
 ### Pointer Animation and Touchpad Inertia
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/9734cbed-55bb-431d-66f3-5ba4ad293001/extra" alt="Two settings in accessibility, pointer control" width="2388" height="1668"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/9734cbed-55bb-431d-66f3-5ba4ad293001/extra" alt="Two settings in accessibility, pointer control" width="2388" height="1668"/>
 
 If you turn on **pointer animation**, when you move over the button, the pointer will disappear, replaced by the adsorption effect of the button highlight. This feature can be turned off, which is closer to the experience on macOS.
 
