@@ -12,7 +12,7 @@ categories:
   - - Development
 date: 2016-06-25 21:12:08
 languages:
-  zh-CN: https://guozeyu.com/2016/06/use-gitlab-on-own-server/
+  zh-CN: https://www.guozeyu.com/2016/06/use-gitlab-on-own-server/
 ---
 
 Most of the code, configuration files, etc. deployed on my server are version controlled using Git. In order to be more convenient to use and configure, a whole system is usually used for management. Obviously, in some code and configuration files, there will be some confidential content, such as some keys, so it must not be disclosed. Although GitHub.com provides the Private storage function, but because this function is paid, and it is very expensive for the Organization Plan, it is not very cost-effective; even if there is a free Private storage, you can store many of your important keys. It is still very insecure to put it on a third-party server, so it is a good choice to be able to host on your own host and to replace the software/service of GitHub.com. This article will talk about the pits I encountered when installing GitLab on my own server, and advanced use, including using the `.gitlab-ci.yml` file to achieve automatic build and real-time synchronization of mirroring to GitHub.

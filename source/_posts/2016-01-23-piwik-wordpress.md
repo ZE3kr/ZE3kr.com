@@ -7,7 +7,7 @@ categories:
   - - Development
 date: 2016-01-23 08:00:00
 languages:
-  zh-CN: https://guozeyu.com/2016/01/piwik-wordpress/
+  zh-CN: https://www.guozeyu.com/2016/01/piwik-wordpress/
 ---
 
 Before it can be used together, Matomo (formerly Piwik) needs to be installed first. [Go to Matomo's official website to download the package](https://matomo.org/download/), and then extract it to the server. Of course, it is better if your server supports one-click installation of Matomo. A PHP environment and MySQL database are required. Just follow the steps to install. It is best to install it under the same host as WordPress, which is more convenient to use.

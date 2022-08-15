@@ -9,7 +9,7 @@ categories:
   - - Technology
 date: 2018-11-15 11:45:54
 languages:
-  zh-CN: https://guozeyu.com/2018/11/azure-dns-ns1-constellix-compare/
+  zh-CN: https://www.guozeyu.com/2018/11/azure-dns-ns1-constellix-compare/
 ---
 
 Recently DNSPod's resolver server [was down for a while](https://www.ithome.com/0/394/009.htm), causing many DNSPod users' websites to be inaccessible. This article will recommend several international GeoDNS services that provide 100% SLA and can be used to replace the unstable DNSPod. And describe ways to use multiple DNS providers to improve service availability.

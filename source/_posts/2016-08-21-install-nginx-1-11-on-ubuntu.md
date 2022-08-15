@@ -8,7 +8,7 @@ categories:
   - - Development
 date: 2016-08-21 10:52:13
 languages:
-  zh-CN: https://guozeyu.com/2016/08/install-nginx-1-11-on-ubuntu/
+  zh-CN: https://www.guozeyu.com/2016/08/install-nginx-1-11-on-ubuntu/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/80372c85-38b6-4615-7e9d-45873db43901/extra" alt="ECDSA certificate" width="1078" height="1220"/>
 ---
 

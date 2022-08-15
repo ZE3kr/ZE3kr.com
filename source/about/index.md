@@ -7,7 +7,7 @@ comments: false
 date: false
 layout: post
 languages:
-  zh-CN: https://guozeyu.com/about/
+  zh-CN: https://www.guozeyu.com/about/
 adb: false
 ---
 
@@ -21,4 +21,4 @@ Unless otherwise stated, the text, pictures and videos of this website use [Crea
 
 ## Privacy Policy
 
-This website uses [self-built Matomo](https://guozeyu.com/2016/01/piwik-wordpress/) for statistics, and a small anonymous cookie is used to identify the visitor ID. This cookie will never transmitted to third parties.
+This website uses [self-built Matomo](https://www.guozeyu.com/2016/01/piwik-wordpress/) for statistics, and a small anonymous cookie is used to identify the visitor ID. This cookie will never transmitted to third parties.

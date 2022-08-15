@@ -8,7 +8,7 @@ categories:
   - - Development
 date: 2016-12-24 20:18:24
 languages:
-  zh-CN: https://guozeyu.com/2016/12/domain-name-system/
+  zh-CN: https://www.guozeyu.com/2016/12/domain-name-system/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/5ccb3159-475f-4fce-ab8e-37a758f7d101/extra" alt="Global DNS topology map" width="2000" height="1467"/>
 ---
 

@@ -10,7 +10,7 @@ categories:
   - - Development
 date: 2017-01-30 08:00:23
 languages:
-  zh-CN: https://guozeyu.com/2017/01/wordpress-full-site-cdn/
+  zh-CN: https://www.guozeyu.com/2017/01/wordpress-full-site-cdn/
 ---
 
 Configuring a site-wide CDN can cache HTML pages and speed up time to first page load. This article focuses on WordPress site-wide caching, solutions for mixing domestic and international CDNs, and the correct way to cache pages on CDNs. This article mainly introduces CloudFront, and also compares several CDNs such as Cloudflare, Youpaiyun, Baidu Cloud Acceleration, KeyCDN, and Google Cloud CDN.
@@ -238,7 +238,7 @@ Both UPYUN and the following KeyCDN issue independent certificates from Let's En
 
 ### Google Cloud CDN
 
-It has the densest network cluster in the world, the fastest speed, lower unit price, mainly provides load balancing, SSL offloading, and of course comes with CDN. Due to the low cache hit rate, it is effective for websites that require very large traffic. It is precisely because of this that Google only uses this CDN system for the search service with a large number of users, and many other CDNs use Cloudflare and Fastly. Google's network has intranet links to Cloudflare and Fastly's networks. [For details, see this article on this site](https://guozeyu.com/2016/10/build-a-anycast-network-gce/)
+It has the densest network cluster in the world, the fastest speed, lower unit price, mainly provides load balancing, SSL offloading, and of course comes with CDN. Due to the low cache hit rate, it is effective for websites that require very large traffic. It is precisely because of this that Google only uses this CDN system for the search service with a large number of users, and many other CDNs use Cloudflare and Fastly. Google's network has intranet links to Cloudflare and Fastly's networks. [For details, see this article on this site](https://www.guozeyu.com/2016/10/build-a-anycast-network-gce/)
 
 * Overseas speed: ★★★★★, full marks for having numerous overseas nodes and supporting Anycast.
 * Domestic speed: ★★★☆☆, which is directly connected to the Hong Kong node in China, which is almost the fastest network in Hong Kong. It has access to several major domestic operators, but after all, there is no domestic node, which is not comparable to some domestic speeds. (But some IPs currently allocated, China Unicom will detour to West America)

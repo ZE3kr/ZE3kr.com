@@ -7,7 +7,7 @@ categories:
   - - Development
 date: 2015-12-13 09:19:00
 languages:
-  zh-CN: https://guozeyu.com/2015/12/https-everywhere-is-coming/
+  zh-CN: https://www.guozeyu.com/2015/12/https-everywhere-is-coming/
 ---
 
 HTTPS is a network security transmission protocol. The URL starts with `https://`, which means that this protocol is used. Apple's latest mobile operating system, iOS 9, not only brings many new features, but also improves the security of the entire system, as [iOS developer resources](https://developer.apple.com/library/ prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html) says

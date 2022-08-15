@@ -7,7 +7,7 @@ categories:
   - Technology
 date: 2022-02-20 23:59:59
 languages:
-  zh-CN: https://guozeyu.com/2022/02/iphone-5g-mmwave/
+  zh-CN: https://www.guozeyu.com/2022/02/iphone-5g-mmwave/
 ---
 
 This article compares the speed difference between IF 5G and millimeter wave 5G, provides a method to determine whether the iPhone uses millimeter wave, describes the meaning of different icons of 5G, compares the low frequency, intermediate frequency and millimeter wave of 5G, and lists the differences between iPhone/iPad The model supports mmWave.

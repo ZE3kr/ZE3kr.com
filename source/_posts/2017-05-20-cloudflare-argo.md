@@ -8,7 +8,7 @@ categories:
   - - Technology
 date: 2017-05-20 19:52:23
 languages:
-  zh-CN: https://guozeyu.com/2017/05/cloudflare-argo/
+  zh-CN: https://www.guozeyu.com/2017/05/cloudflare-argo/
 ---
 
 This website has always implemented foreign parsing to CloudFront for foreign acceleration. Recently, I saw that Cloudflare supports the new function [Argo](https://blog.cloudflare.com/argo/), so I put the foreign CDN from CloudFront. I switched to Cloudflare and turned on Argo to try the effect. Officials claim that TTFB (first byte latency) can be significantly reduced when there is no cache, and the cache hit rate can also be improved when there is a cache. This article will also compare it with Railgun, another enterprise-grade CDN acceleration black technology from Cloudflare.
@@ -65,7 +65,7 @@ Argo is not as easy to use as you think, and the starting price of **$5/mo** and
 
 ## Dynamic Content
 
-**Latency**: Google Cloud CDN has the lowest latency, followed by Cloudflare Railgun. **Traffic**: For a normal dynamic CMS, Cloudflare Railgun can save roughly 10 times more traffic than Google Cloud CDN can do. When I tested Google Cloud CDN in [Comparison of several full-site CDNs at home and abroad](https://guozeyu.com/2017/01/wordpress-full-site-cdn/), I was surprised by its extremely low TTFB. After careful study, it is found that the node establishes a long connection with the host, and will maintain it for a long time. In addition, all networks go through the Google intranet, which is similar to Argo and Railgun in nature. Therefore, the fastest service for dynamic content should be Google Cloud CDN, and Railgun is basically equivalent.
+**Latency**: Google Cloud CDN has the lowest latency, followed by Cloudflare Railgun. **Traffic**: For a normal dynamic CMS, Cloudflare Railgun can save roughly 10 times more traffic than Google Cloud CDN can do. When I tested Google Cloud CDN in [Comparison of several full-site CDNs at home and abroad](https://www.guozeyu.com/2017/01/wordpress-full-site-cdn/), I was surprised by its extremely low TTFB. After careful study, it is found that the node establishes a long connection with the host, and will maintain it for a long time. In addition, all networks go through the Google intranet, which is similar to Argo and Railgun in nature. Therefore, the fastest service for dynamic content should be Google Cloud CDN, and Railgun is basically equivalent.
 
 ## Static Content
 

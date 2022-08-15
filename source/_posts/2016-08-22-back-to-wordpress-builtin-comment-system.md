@@ -7,7 +7,7 @@ categories:
   - - Development
 date: 2016-08-22 11:32:57
 languages:
-  zh-CN: https://guozeyu.com/2016/08/back-to-wordpress-builtin-comment-system/
+  zh-CN: https://www.guozeyu.com/2016/08/back-to-wordpress-builtin-comment-system/
 ---
 
 Recently, Disqus has been very unstable by the wall of a certain country, so it has used the comment system that comes with WordPress, but this comment system does not have an email reminder when the commenter is replied. I have my own sending server (AWS SES) system, so in theory, this effect can be achieved with plug-ins. But I have seen a lot of plug-ins. Basically, the operation pages are too complicated, and the reply emails usually do not support Chinese. I only need a simple reply system, so I don’t need to be so troublesome, so I just developed one myself, and finally realized this perfectly. Function.

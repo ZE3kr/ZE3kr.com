@@ -7,7 +7,7 @@ categories:
   - - Development
 date: 2016-01-03 14:00:00
 languages:
-  zh-CN: https://guozeyu.com/2016/01/static-website/
+  zh-CN: https://www.guozeyu.com/2016/01/static-website/
 ---
 
 Static web pages, that is, **pure HTML web pages**, each page in the blog is a `.html` file. First of all, there is a misunderstanding here. Some people think that static web pages cannot be easily updated. In fact, static web pages can be easily updated. With the help of static web page generators, updating them is not complicated. When it needs to update an article, it needs to regenerate the home page and the article, which is usually done in less than a minute. What if the blog were to use dynamic web pages? It is certainly possible to do so, and there are many mature software, such as WordPress, that run in a PHP environment and require a MySQL database. Every time a web page is accessed, the server needs to read the content of the database (or read from the cache), and then process it into HTML with a certain style and return it to the user. Of course, dynamic web pages can realize all the functions of static web pages, and of course there are more functions, such as image uploading and regular publishing. Since dynamic web pages can realize all the functions of static web pages, what are the advantages of static web pages?

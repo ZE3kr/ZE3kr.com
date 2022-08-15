@@ -9,7 +9,7 @@ categories:
   - - Technology
 date: 2016-05-29 14:43:00
 languages:
-  zh-CN: https://guozeyu.com/2016/05/rage4-best-dns/
+  zh-CN: https://www.guozeyu.com/2016/05/rage4-best-dns/
 ---
 
 DNS ([Domain Name System](https://en.wikipedia.org/wiki/Domain Name System)) is a service of the Internet. It can point the domain name to an IP (server), so that you can access a website through the domain name. A website that can be accessed through a domain name requires a DNS server. This refers to the authoritative DNS used for the webmaster's domain name, not the cached DNS. This article includes a comprehensive comparison of CloudXNS, Route 53, Cloudflare, Google Cloud DNS, Rage4, and Alibaba Cloud DNS.

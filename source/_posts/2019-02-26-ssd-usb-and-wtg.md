@@ -7,7 +7,7 @@ categories:
   - - Technology
 date: 2019-02-26 16:49:52
 languages:
-  zh-CN: https://guozeyu.com/2019/02/ssd-usb-and-wtg/
+  zh-CN: https://www.guozeyu.com/2019/02/ssd-usb-and-wtg/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/69a9a1ba-9671-4f8f-3fd7-50bed271db01/extra" alt="SSD Connection Layout" width="3360" height="2240"/>
 ---
 

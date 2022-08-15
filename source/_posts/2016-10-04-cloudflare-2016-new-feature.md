@@ -7,7 +7,7 @@ categories:
   - - Development
 date: 2016-10-04 09:26:00
 languages:
-  zh-CN: https://guozeyu.com/2016/10/cloudflare-2016-new-feature/
+  zh-CN: https://www.guozeyu.com/2016/10/cloudflare-2016-new-feature/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/643d7c6c-859b-4f5f-42e3-44bd338c1101/extra" alt="Load Balancing screenshot" width="1600" height="877"/>
 ---
 

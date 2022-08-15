@@ -9,7 +9,7 @@ categories:
   - - Technology
 date: 2017-01-07 07:00:18
 languages:
-  zh-CN: https://guozeyu.com/2017/01/suggestion-on-hosting/
+  zh-CN: https://www.guozeyu.com/2017/01/suggestion-on-hosting/
 ---
 
 Building a website, building a software (or game) server, etc., may have many entanglements and pits. This article is based on my personal experience to help you choose the most suitable solution for you, as well as some suggestions, listed at the end Come out with some services that I recommend.
@@ -39,7 +39,7 @@ In general, the services that need to be purchased for building a website also b
 
 ## Other
 
-+ **Domain name related**: Whether you choose to use a virtual host, VPS or a dedicated server, you usually need to buy a domain name yourself, configure DNS resolution, etc. The recommended free DNS resolution includes CloudFlare, Rage4, and domestic CloudXNS, some web hosting providers and domain name registrars also provide free resolution, but they are not as good as the ones introduced earlier ([For details about DNS, please see here](https://guozeyu.com/2016/05/rage4- best-dns/)). If you choose to use CloudFlare, then you can also choose to enable Proxy (CDN) in the DNS background, which can cache and speed up your website (but actually it may slow down for domestic purposes), and get some basic DDOS protection, And hide your origin IP address.
++ **Domain name related**: Whether you choose to use a virtual host, VPS or a dedicated server, you usually need to buy a domain name yourself, configure DNS resolution, etc. The recommended free DNS resolution includes CloudFlare, Rage4, and domestic CloudXNS, some web hosting providers and domain name registrars also provide free resolution, but they are not as good as the ones introduced earlier ([For details about DNS, please see here](https://www.guozeyu.com/2016/05/rage4- best-dns/)). If you choose to use CloudFlare, then you can also choose to enable Proxy (CDN) in the DNS background, which can cache and speed up your website (but actually it may slow down for domestic purposes), and get some basic DDOS protection, And hide your origin IP address.
 + **Choice of domain name registrars**: First of all, to ensure that the total number of domain names is large; secondly, to have a complete range of domain name suffixes; thirdly, it is best to add free corporate email and advanced privacy protection; fourth, After the domain name is registered, it must be able to be deleted and refunded, so as to prevent the wrong registration from shaking hands; fifth, the price should not be too expensive. On the public domain name registration service [TlOxygen](https://domain.tloxygen.com/?promo=ze3kr) I made, the domain name registrars used are among the top ten global domain name registrars; there are more than 500 domain name suffixes , more than GoDaddy; gift business mailbox, you can configure unlimited forwarding mailboxes, even subdomain mailboxes, and support DKIM; most types of domain names can be refunded for deletion; the price is much cheaper than Godaddy, and the renewal price is not so pitiful , basically 30% off; domain name privacy protection is only 5 yuan, but the function is more advanced than many free ones: even if domain name privacy protection is turned on, when someone sends you an email, you will receive a form, and you can continue to fill in the form to contact you.
 
 ## Recommendations of Some Service Providers

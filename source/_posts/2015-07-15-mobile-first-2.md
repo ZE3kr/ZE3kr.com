@@ -8,7 +8,7 @@ categories:
   - Development
 date: 2015-07-15 14:00:25
 languages:
-  zh-CN: https://guozeyu.com/2015/07/mobile-first-2/
+  zh-CN: https://www.guozeyu.com/2015/07/mobile-first-2/
 ---
 
 Internet speeds on mobile devices are usually not fast, they usually have slower speeds and higher latency than broadband, so how do mobile browsers load pages? That's what this article is about. In fact, whether you are loading a page on a mobile or desktop side, the following steps are required:

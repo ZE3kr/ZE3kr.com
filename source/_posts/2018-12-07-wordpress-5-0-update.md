@@ -7,7 +7,7 @@ categories:
   - - Development
 date: 2018-12-07 07:14:57
 languages:
-  zh-CN: https://guozeyu.com/2018/12/wordpress-5-0-update/
+  zh-CN: https://www.guozeyu.com/2018/12/wordpress-5-0-update/
 ---
 
 The official version of WordPress 5.0 has been released on 2018-12-07. Users of self-built WordPress can upgrade in the web management page of the WordPress background. The two most obvious features of this update are: 1. The background management uses a new editor, and 2. The theme of 2019 has been added, which adapts to this new editor.

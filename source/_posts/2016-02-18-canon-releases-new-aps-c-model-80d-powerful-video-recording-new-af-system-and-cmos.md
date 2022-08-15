@@ -7,7 +7,7 @@ categories:
   - - Technology
 date: 2016-02-18 16:45:10
 languages:
-  zh-CN: https://guozeyu.com/2016/02/canon-releases-new-aps-c-model-80d-powerful-video-recording-new-af-system-and-cmos/
+  zh-CN: https://www.guozeyu.com/2016/02/canon-releases-new-aps-c-model-80d-powerful-video-recording-new-af-system-and-cmos/
 ---
 
 The 80D is an upgraded version of the 70D. It is considered mid-to-high-end in APS-C, and is currently second only to the 7D Mark II. This upgrade has many highlights, and video recording has become one of the best in the EOS series. Many video capture features that were previously unique to the 7D Mark II have been added to the 1DX Mark II and 80D. Secondly, this upgrade also uses a new 45-point full cross focus and 24.2 million CMOS. [Buy Authentic on Amazon](https://www.amazon.cn/gp/product/B01HPBXKXU?tag=ze3kr-23)

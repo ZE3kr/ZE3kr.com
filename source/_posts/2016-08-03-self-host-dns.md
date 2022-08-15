@@ -8,10 +8,10 @@ categories:
   - - Development
 date: 2016-08-03 09:24:21
 languages:
-  zh-CN: https://guozeyu.com/2016/08/self-host-dns/
+  zh-CN: https://www.guozeyu.com/2016/08/self-host-dns/
 ---
 
-Lately I've grown more and more into building things myself, like GitLab. Today, I changed the DNS server to a self-built one, and shared my experience (PS: Now in order to realize the [root domain CDN](https://guozeyu.com/2017/01/wordpress-full-site-cdn/), I used Route 53 instead):
+Lately I've grown more and more into building things myself, like GitLab. Today, I changed the DNS server to a self-built one, and shared my experience (PS: Now in order to realize the [root domain CDN](https://www.guozeyu.com/2017/01/wordpress-full-site-cdn/), I used Route 53 instead):
 
 The self-built DNS in this article refers to the authoritative DNS, that is, the DNS configured for your own domain name, not the cache DNS configured on the client.
 

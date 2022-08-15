@@ -7,7 +7,7 @@ categories:
   - - Technology
 date: 2016-03-25 23:15:47
 languages:
-  zh-CN: https://guozeyu.com/2016/03/talk-about-spreading-of-video-on-the-internet/
+  zh-CN: https://www.guozeyu.com/2016/03/talk-about-spreading-of-video-on-the-internet/
 ---
 
 Videos are distributed on the Internet, the most common way is through the **World Wide Web** - the user directly enters a web link/search engine search/link to other websites, or through any reader (including Podcasts client in inside) to play. Doing this is not limited to any platform at all, but it means that you have to pay for your video traffic, but let's leave that out (this is just the ideal solution). First, let's start with the format of the video. In order for the user to play the video, you need to use a format that the user can decode. You might want a free format that can be played on all platforms, but there is no such format.

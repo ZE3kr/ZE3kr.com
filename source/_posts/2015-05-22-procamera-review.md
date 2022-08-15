@@ -8,7 +8,7 @@ categories:
   - Apps
 date: 2015-05-22 17:03:14
 languages:
-  zh-CN: https://guozeyu.com/2015/05/procamera-review/
+  zh-CN: https://www.guozeyu.com/2015/05/procamera-review/
 ---
 
 It's a worthwhile piece of software that includes powerful manual customization, sharing, and amazing HDR compositing capabilities. [Go to App Store to get](https://apps.apple.com/cn/app/procamera-capture-the-moment/id694647259?at=10lJIS)

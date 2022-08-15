@@ -8,7 +8,7 @@ categories:
   - - Development
 date: 2015-08-17 09:07:34
 languages:
-  zh-CN: https://guozeyu.com/2015/08/using-srcset/
+  zh-CN: https://www.guozeyu.com/2015/08/using-srcset/
 ---
 
 Using the srcset attribute can solve all responsive image problems, but there are two cases here, photos of certain and indeterminate widths. In contrast, photos of indeterminate width are more complicated.

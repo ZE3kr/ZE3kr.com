@@ -8,7 +8,7 @@ categories:
   - Technology
 date: 2020-04-20 15:43:16
 languages:
-  zh-CN: https://guozeyu.com/2020/04/magic-keyboard-for-ipad-pro/
+  zh-CN: https://www.guozeyu.com/2020/04/magic-keyboard-for-ipad-pro/
 ---
 
 I just received the Magic Keyboard for iPad Pro (11-inch). Apple quietly released the 2020 iPad Pro with dual cameras at the beginning of this year, with little change in performance, mainly starting with 128GB and lowering the price. The most important updates are the iPadOS 13.4 for mouse and touchpad and the Magic Keyboard for iPad Pro that just went on sale. The new keyboard supports both the 2018 and 2020 iPad Pros. This generation has better support patterns, an improved keyboard, new Type-C charging, and a Mac-like multi-touch trackpad.

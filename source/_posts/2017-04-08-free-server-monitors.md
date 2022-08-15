@@ -8,7 +8,7 @@ categories:
   - - Development
 date: 2017-04-08 08:00:34
 languages:
-  zh-CN: https://guozeyu.com/2017/04/free-server-monitors/
+  zh-CN: https://www.guozeyu.com/2017/04/free-server-monitors/
 ---
 
 With server monitoring services, you can know how your website is running and when you are online. When there is a problem with the server, you can be notified as soon as possible. Personal website operation and maintenance need these services to ensure stability. However, many of these services are enterprise-oriented, making them expensive and not using the functionality they provide. This article recommends several free server monitoring services to webmasters.

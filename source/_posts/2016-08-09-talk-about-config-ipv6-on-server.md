@@ -7,7 +7,7 @@ categories:
   - - Development
 date: 2016-08-09 20:32:16
 languages:
-  zh-CN: https://guozeyu.com/2016/08/talk-about-config-ipv6-on-server/
+  zh-CN: https://www.guozeyu.com/2016/08/talk-about-config-ipv6-on-server/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/a654ab2c-cb09-4972-d070-23ab59807101/extra" alt="Test screenshot" width="1008" height="670"/>
 ---
 
@@ -28,7 +28,7 @@ Then check whether the output IP is all IPv6 addresses. If nothing is output, th
 
 <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/754c0ab0-536b-4953-3c68-4e50bfcb4601/extra" alt="The root domain name com and the first-level domain name example.com are both correctly configured with IPv6-enabled DNS servers" width="772" height="174"/>
 
-If you want to build your own DNS server, you can refer to [How to Build Your Own PowerDNS](https://guozeyu.com/2016/08/self-host-dns/). If your root domain name does not support IPv6, then you can contact the root domain name to have them support it, or change the root domain name. If your first-level domain name does not support IPv6, contact the DNS resolver to ask them to support it, or simply change it.
+If you want to build your own DNS server, you can refer to [How to Build Your Own PowerDNS](https://www.guozeyu.com/2016/08/self-host-dns/). If your root domain name does not support IPv6, then you can contact the root domain name to have them support it, or change the root domain name. If your first-level domain name does not support IPv6, contact the DNS resolver to ask them to support it, or simply change it.
 
 ## Make Servers such as Websites And APIs Support IPv6
 

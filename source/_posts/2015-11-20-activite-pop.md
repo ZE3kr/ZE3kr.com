@@ -10,7 +10,7 @@ date: 2015-11-20 17:27:29
 cover: https://cdn.tloxygen.com/12d9fb47f8bf1560187d3b57c26816f1/thumbnails/thumbnail.jpg?time=1m4s
 video: 12d9fb47f8bf1560187d3b57c26816f1
 languages:
-  zh-CN: https://guozeyu.com/2015/11/activite-pop/
+  zh-CN: https://www.guozeyu.com/2015/11/activite-pop/
 ---
 
 This smartwatch is different from many existing smartwatches in that it has physical hands. [Buy Authentic on Amazon](https://www.amazon.com/gp/product/B00S5I9H4O?tag=ze3kr-23)

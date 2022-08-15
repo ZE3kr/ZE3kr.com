@@ -11,7 +11,7 @@ categories:
   - - Development
 date: 2016-06-09 17:36:00
 languages:
-  zh-CN: https://guozeyu.com/2016/06/wordpress-optimize/
+  zh-CN: https://www.guozeyu.com/2016/06/wordpress-optimize/
 ---
 
 WordPress is the most popular content management system out there, and this site uses it. But for a fresh installation of WordPress, its performance is not very high, and when the traffic to the website suddenly increases, it is very important to optimize the performance. By implementing the following solutions, you can greatly improve the speed of WordPress access:
@@ -81,7 +81,7 @@ Compressing images can not only improve the image loading speed during access, b
 
 ### Responsive Images
 
-Loading different images for different devices, such as images loaded on mobile phones, can be much smaller than images loaded on computers with retina screens. Using the [srcset technology mentioned on this site] (https://guozeyu.com/2015/08/using-srcset/) can be the easiest to implement this function, as long as your theme supports it (the latest official The default theme already supports it), if the theme itself does not support it, it can also be implemented through plugins.
+Loading different images for different devices, such as images loaded on mobile phones, can be much smaller than images loaded on computers with retina screens. Using the [srcset technology mentioned on this site] (https://www.guozeyu.com/2015/08/using-srcset/) can be the easiest to implement this function, as long as your theme supports it (the latest official The default theme already supports it), if the theme itself does not support it, it can also be implemented through plugins.
 
 ## Disable Unwanted Services
 

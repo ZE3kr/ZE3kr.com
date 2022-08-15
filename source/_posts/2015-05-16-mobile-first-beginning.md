@@ -8,7 +8,7 @@ categories:
   - Development
 date: 2015-05-16 13:36:43
 languages:
-  zh-CN: https://guozeyu.com/2015/05/mobile-first-beginning/
+  zh-CN: https://www.guozeyu.com/2015/05/mobile-first-beginning/
 ---
 
 Most of the existing desktop operating systems have browsers, which allow us to browse a web page conveniently. However, the original mobile browsers were difficult to access the web, because their low resolution, small screen and browser did not support many cutting-edge CSS and JavaScript, making them incapable of accessing the desktop version of the website. At that time, the websites accessed by mobile phones were greatly simplified versions specially designed for the device, like this:

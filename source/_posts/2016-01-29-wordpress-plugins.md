@@ -7,7 +7,7 @@ categories:
   - - Development
 date: 2016-01-29 10:19:00
 languages:
-  zh-CN: https://guozeyu.com/2016/01/wordpress-plugins/
+  zh-CN: https://www.guozeyu.com/2016/01/wordpress-plugins/
 ---
 
 ## EWWW Image Optimizer
@@ -56,7 +56,7 @@ admin,mediaelement,wordfence,piwik,toolbar,dashicons,crayon-syntax-highlighter/t
 
 ##AMP
 
-Plugin author: Automattic, optimized for Google, showing super fast AMP pages in search results. Details: [Building Ultra-Fast Mobile Pages with AMP](https://guozeyu.com/2016/10/amp-html/)
+Plugin author: Automattic, optimized for Google, showing super fast AMP pages in search results. Details: [Building Ultra-Fast Mobile Pages with AMP](https://www.guozeyu.com/2016/10/amp-html/)
 
 ## Google Authenticator
 
@@ -88,7 +88,7 @@ This plugin can automatically generate `sitemap.xml` and `robots.txt` of the web
 
 <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/7b6a9445-3301-4439-f287-67c86b1c3a01/extra" alt="WP-Piwik screenshot" width="2114" height="968"/>
 
-This plugin enables your entire website to have statistical functions, supports WordPress multi-site, and is recommended to be enabled on the entire network. About Piwik with WordPress, please refer to this article: [Use Piwik with WordPress to build a powerful statistical system](https://guozeyu.com/2016/01/piwik-wordpress/).
+This plugin enables your entire website to have statistical functions, supports WordPress multi-site, and is recommended to be enabled on the entire network. About Piwik with WordPress, please refer to this article: [Use Piwik with WordPress to build a powerful statistical system](https://www.guozeyu.com/2016/01/piwik-wordpress/).
 
 ## Blubrry PowerPress
 
