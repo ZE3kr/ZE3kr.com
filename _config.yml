@@ -165,21 +165,24 @@ theme_config:
         <img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/13dcc12b-1cda-4049-997c-555726b9bd01/medium" width="800" height="667"/>
         <ul>
           <li>500+ TLDs</li>
-          <li>PayPal/Card</li>
+          <li>PayPal/Card/Pay Later</li>
           <li>Privacy Protection</li>
           <li>Free Email & Forward All</li>
           <li>DS Record for DNSSEC</li>
         </ul>
 
   links:
-    - title: Disable Ad Block
-      url: /ads/
-      domain: Thanks
-      tloC: true
-    - title: Domain Registrar
-      url: https://tloxygen.com
-      domain: Free Email
-      tloB: true
+    # - title: Disable Ad Block
+    #   url: /ads/
+    #   domain: Thanks
+    #   tloC: true
+    - title: Shared Hosting
+      url: https://www.tloxygen.com/web-hosting/index.php
+      domain: $3.59/mo
+      # tloB: true
+    - title: 2C2G SSD VPS
+      url: https://www.tloxygen.com/virtualserverlinux-hosting.php
+      domain: $14.39/mo
     - title: Zeus Wang
       url: https://www.zeus.wang
       domain: Zeus.Wang
