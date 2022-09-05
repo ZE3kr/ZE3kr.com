@@ -108,11 +108,9 @@ theme: hexo-theme-claudia
 deploy:
   type: git
   repo:
-    # local: ~/sync/ZE3kr.com.git,main
     hk1-ali: ze3kr@hk1-ali.tloxygen.com:~/sync/ZE3kr.com.git,main
-    us1-bvm: ze3kr@us1-bvm.tloxygen.com:~/sync/ZE3kr.com.git,main
-    ca1-aws: ze3kr@ca1-aws.tloxygen.com:~/sync/ZE3kr.com.git,main
     sg1-aws: ze3kr@sg1-aws.tloxygen.com:~/sync/ZE3kr.com.git,main
+    us1-gcp: ~/sync/ZE3kr.com.git,main
     de1-ovh: ze3kr@de1-ovh.tloxygen.com:~/sync/ZE3kr.com.git,main
 
 feed:
