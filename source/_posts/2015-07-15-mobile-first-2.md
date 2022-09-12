@@ -29,7 +29,7 @@ The browser starts to download the page itself, and after downloading the page i
 
 The browser will wait for the most important dependencies (that is, CSS and JavaScript in the `head` section, which will be highlighted later) to be loaded, before rendering. Because rendering depends on these contents, CSS is also what we often call style sheets. These style sheets are very important, such as this website of Baidu:
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/09022b05-0350-4e22-f4cd-bc6559b30401/extra" alt="Baidu without stylesheets" width="2518" height="1410"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/09022b05-0350-4e22-f4cd-bc6559b30401/extra" alt="Baidu without stylesheets" width="2518" height="1410"/>
 
 Without CSS style sheets, the layout of the entire web page is "out of control" and the page doesn't load in the expected way, which is a terrible experience. A web page without a style sheet and a web page with a style sheet are usually two completely different things. However, JavaScript is usually not related to layout and can be loaded later without affecting page styles.
 
