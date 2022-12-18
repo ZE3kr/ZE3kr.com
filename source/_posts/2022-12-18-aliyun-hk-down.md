@@ -34,15 +34,15 @@ At 11:55, I finally received a reply to the work order: "Hello! Alibaba Cloud mo
 
 The reply did not provide a solution, nor did it have an expected recovery time. It can be said that it just told me "this is a problem with our Alibaba Cloud", and it did not substantially help restore the service.
 
-## Unable to complain about Alibaba Cloud
+## About Alibaba Cloud
 
 The most worthy complaint about this incident is that I have never received any relevant notification from Alibaba Cloud. Until now, I have not received any reminder from Alibaba Cloud about the service downtime in emails, text messages, and on-site messages. I believe that Alibaba Cloud has a lot of monitoring. I firmly believe that Alibaba Cloud already knew that there was a problem with my service and other people's servers long before I found out that there was a problem with my service. But I don't get any notification. The only thing that told me about the problem with Alibaba Cloud was that I sent a work order and asked it myself.
 
 I think it is necessary for Alibaba Cloud to send relevant reminders to all affected and potentially affected customers. After 8 hours of continuous downtime without recovery, Alibaba Cloud still did not take the initiative to notify customers. It is really hard for me to doubt whether Alibaba Cloud deliberately did not notify and tried to cover up the problem.
 
-## Do you still use Alibaba Cloud?
+## Will I still use Alibaba Cloud?
 
-Will do. As the largest cloud service provider in China and one of the top cloud service providers in the world, I have no doubts about Alibaba Cloud's technical strength. I now use Alibaba Cloud mainly for the CN2 boutique network of Alibaba Cloud Hong Kong, which is used for cross-border data (the price is 3 yuan/GB). There are currently no alternatives in this regard. I have also considered the dedicated line, but it is too expensive to afford.
+I Will. As the largest cloud service provider in China and one of the top cloud service providers in the world, I have no doubts about Alibaba Cloud's technical strength. I now use Alibaba Cloud mainly for the CN2 boutique network of Alibaba Cloud Hong Kong, which is used for cross-border data (the price is 3 yuan/GB). There are currently no alternatives in this regard. I have also considered the dedicated line, but it is too expensive to afford.
 
 However, I will not put my core business on Alibaba Cloud. I feel more at ease on AWS. The Alibaba Cloud Hong Kong downtime only affected my website for a short while, and it was precisely because I did not put my core business on Alibaba Cloud.
 
