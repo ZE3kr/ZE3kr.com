@@ -8,6 +8,8 @@ tags:
  - DNS
 categories:
  - Development
+languages:
+  zh-CN: https://www.guozeyu.com/2022/12/aliyun-hk-down/
 ---
 
 On December 18, 2022, an exception occurred in Alibaba Cloud Hong Kong services. The Hong Kong server used by this site was also affected. Due to my incorrect alarm configuration, some domain names were not correctly switched and resolved, causing a small number of users to be unavailable for up to half an hour. However, the problem occurred in the Alibaba Cloud Hong Kong computer room for far more than an hour. According to my monitoring here, since 10:49 Beijing time, the HTTP and HTTPS services I run on Alibaba Cloud in Hong Kong are completely unavailable, and they are not restored until 20:46, with a total of 10 hours of downtime.
