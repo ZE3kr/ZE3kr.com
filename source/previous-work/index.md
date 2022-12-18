@@ -14,7 +14,7 @@ I will update more details here soon.
 
 What you are visiting right now, `ze3kr.com`, is part of my portfolio. You can visit the [homepage](/) to see my previous posts. I also operate the following websites:
 
-+ [TlOxygen.com][https://www.tloxygen.com]: Selling domain register and web hosting services.
++ [TlOxygen.com](https://www.tloxygen.com): Selling domain register and web hosting services.
 
 ## WildHelper
 
@@ -58,7 +58,7 @@ WildHelper is a mobile app for the students at Beijing University of Technology 
 + The server never stores user passwords
 + Revocation of authorization mechanism, users can completely delete all data at any time
 
-## Cloudflare CNAME Setup (discontinued)
+## Cloudflare CNAME Setup
 
 This project allows Cloudflare Hosting Partner to provide a panel for customers, which allows customers to have CNAME setup for free. Because the Cloudflare discontinued the Hosting Partner service, this project was discontinued. [Official Website](https://web.archive.org/web/20211008175842/https://github.com/ZE3kr/Cloudflare-CNAME-Setup). This project received more than 1.3k stars.
 
