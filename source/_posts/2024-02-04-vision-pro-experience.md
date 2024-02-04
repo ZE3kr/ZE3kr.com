@@ -5,6 +5,8 @@ tags:
  - Smart Device
 categories:
  - Technology
+languages:
+  zh-CN: https://www.guozeyu.com/2024/02/vision-pro-experience/
 ---
 
 I picked up the device at 8:00 AM EST on February 2nd. As someone who doesn't wear glasses, I've used it for a full two days now, and here are some of my findings.
