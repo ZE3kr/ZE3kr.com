@@ -1,5 +1,5 @@
 ---
-title: Vision Pro First Experience
+title: Vision Pro Initial Experience
 date: 2024-02-05 3:00:00
 tags: 
  - Smart Device
