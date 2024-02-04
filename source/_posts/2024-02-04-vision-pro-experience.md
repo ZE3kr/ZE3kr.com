@@ -7,7 +7,7 @@ categories:
  - Technology
 ---
 
-I picked up the device at 8:00 AM EST on February 2nd. As someone who doesn't wear glasses, I've used it for a full two days now and here are some of my findings.
+I picked up the device at 8:00 AM EST on February 2nd. As someone who doesn't wear glasses, I've used it for a full two days now, and here are some of my findings.
 
 ## Configuration Choice
 
@@ -17,7 +17,7 @@ I chose the 512GB version, primarily because I anticipated that some of the soft
 
 Having never used other VR/AR products before (Google Cardboard excluded 😂), I didn't find the Vision Pro's display quality particularly outstanding. Instead, I found that the display quality of the Vision Pro cannot fully replace that of the Studio Display. Compared to other types of displays, it has these characteristics:
 
-**Resolution:** A 5K display has a **significantly** sharper image and a noticeably better color space to the naked eye. The clarity of the Vision Pro is roughly equivalent to that of a 2.5K display, with the display quality ranking: high-end displays >> Vision Pro > high-end projectors. Upon closer inspection, I could see the pixels in the Vision Pro. My vision is not perfect, being slightly nearsighted, and I could still discern pixels without corrective lenses.
+**Resolution:** A 5K display has a **significantly** sharper image and noticeably better color space for the naked eye. The clarity of the Vision Pro is roughly equivalent to that of a 2.5K display, with the display quality ranking: high-end displays >> Vision Pro > high-end projectors. Upon closer inspection, I could see the pixels in the Vision Pro. My vision is not perfect, being slightly nearsighted, but I could still discern pixels without corrective lenses.
 
 **HDR Effect:** Thanks to micro-LED, the HDR effect is relatively outstanding, better than monitors and projectors, but the brightness of highlights cannot surpass that of the iPhone's OLED or the MacBook Pro's miniLED.
 
@@ -27,7 +27,7 @@ Having never used other VR/AR products before (Google Cardboard excluded 😂), 
 
 ## Passthrough Quality
 
-The quality of passthrough is far inferior to that of UI display, with the camera resolution not being high, making the real world appear far from 4K quality. However, its exposure control is excellent, with no overexposure or underexposure, making it viable for daily life activities like eating. Yet, it's not suitable for reading smaller texts (too blurry to read; for example, food ingredient lists or small text on a phone are unclear).
+The quality of the passthrough is far inferior to that of the UI display, with the camera resolution not being high, making the real world appear far from 4K quality. However, its exposure control is excellent, with no overexposure or underexposure, making it viable for daily life activities like eating. Yet, it's not suitable for reading smaller texts (too blurry to read; for example, food ingredient lists or small text on a phone are unclear).
 
 The perspective effect is just usable. I can wear it and walk around the house without any issues.
 
@@ -41,9 +41,9 @@ Overall, the control is quite convenient. If the control of a Mac's touchpad is 
 
 Besides pinch 🤌 controls, direct button clicks are also interactive, bringing the window "closer" and then using your index finger to tap the air screen like on an iPad, which is quite useful for websites with small buttons, such as YouTube. This approach is more convenient for websites not well adapted, where buttons are close together.
 
-The control experience for iPad compatible apps is also quite good. Many software (including those Apple once advertised as supporting Vision Pro) are actually just iPad compatible versions. Trying iPad versions of Lightroom, Paramount+, Maps, etc., I found the experience surprisingly good. The biggest issue remains the typing experience. Thinking back, the front-end scheduling, mouse pointer, and Apple Pencil's Hover feature added to the iPad are amazingly similar to the interactions with Vision Pro, making iPad Apps that support these features perform well on Vision Pro.
+The control experience for iPad-compatible apps is also quite good. Many software (including those Apple once advertised as supporting Vision Pro) are actually just iPad-compatible versions. Trying iPad versions of Lightroom, Paramount+, Maps, etc., I found the experience surprisingly good. The biggest issue remains the typing experience. Thinking back, the front-end scheduling, mouse pointer, and Apple Pencil's Hover feature added to the iPad are amazingly similar to the interactions with Vision Pro, making iPad Apps that support these features perform well on Vision Pro.
 
-My favorite method of typing is now using both index fingers to tap the keyboard. I've gradually gotten used to it, but it's still not as good as the iPhone's small screen keyboard. The Bluetooth keyboard remains to be tried.
+My favorite method of typing is now using both index fingers to tap the keyboard. I've gradually gotten used to it, but it's still not as good as the iPhone's small-screen keyboard. The Bluetooth keyboard remains to be tried.
 
 After using the Vision Pro for a while, whenever I see a screen in the real world that feels far away or improperly positioned, I instinctively want to 🤌 adjust it, only to realize I can't 😂. I think this will become a subconscious gesture in the future, similar to scenarios described in Liu Cixin's "The Three-Body Problem".
 
