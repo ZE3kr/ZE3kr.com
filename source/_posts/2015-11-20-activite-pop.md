@@ -24,7 +24,7 @@ Activité Pop can automatically detect walking, running, swimming and sleeping. 
 
 Activité Pop has a vibrating alarm function, not only that, but it also has a smart wake-up function that wakes you up in advance when it is about to the set time and it detects that you have woken up or entered a light sleep.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/71adfbf0-e44a-4630-bac7-18bac0f61e01/extra" alt="Smart Alarm" width="750" height="1334"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/683b12e6-04ce-4251-9d82-64885ece8d00/extra" alt="Smart Alarm" width="750" height="1334"/>
 
 ## Long Battery Life
 

@@ -38,25 +38,25 @@ Since HTTPS sites must include a certificate for authentication, it is possible 
 
 For pages where all resources under the site use the HTTPS protocol, many browsers will have encryption prompts to inform users that the site is encrypted, making the entire site higher. However, I would like to remind users that not all pages using HTTPS are safe, and any website can easily apply for an SSL certificate, so it is still necessary to identify the domain name itself. However, it is more trustworthy for HTTPS sites that directly display their company name, because this kind of certificate needs to be verified by paper proof materials. Below are the encryption prompts for accessing some HTTPS sites using Chrome for Mac. Chrome's encryption prompt menu is divided into two parts, the first part is verification, and the latter part is encryption, which can usually be divided into the following four types:
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/d94fe967-cfce-46af-dcb5-72184321d501/extra" alt="1. HTTPS site showing company name" width="760" height="1024"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/f0a748a5-9989-4fbb-7910-e306a481b600/extra" alt="1. HTTPS site showing company name" width="760" height="1024"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/51dfb3b3-d844-4286-b5a0-e3f615c78801/extra" alt="2. Normal HTTPS site" width="760" height="1024"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/372dfb1f-18e2-4cae-f421-54a1ff31cc00/extra" alt="2. Normal HTTPS site" width="760" height="1024"/>
 
 The first and second cases represent that a sufficiently secure encryption method is used (but the second one does not provide any Certificate Transparency information), but the signature level of the certificate is different, which has nothing to do with the encryption method and the security of the verification. In any case, it can be guaranteed that the certificate is not forged.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/f0303c82-8602-43ab-6ab8-b5b04cc63201/extra" alt="3. HTTPS site containing insecure resources" width="760" height="1024"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/b4ebd2cd-116e-4b25-a611-edd0661e3200/extra" alt="3. HTTPS site containing insecure resources" width="760" height="1024"/>
 
 The third case is containing unsafe resources, the appearance of the website may be changed, but the HTML text itself is reliable.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/ec511bc3-a542-4309-16ed-122884a3d801/extra" alt="4. HTTPS sites with outdated authentication" width="760" height="1024"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/d232cf63-d283-44dd-32e8-015d7318a200/extra" alt="4. HTTPS sites with outdated authentication" width="760" height="1024"/>
 
 The fourth case is a certificate signed with SHA-1. Since SHA-1 is not secure enough, that is to say, the security of verification is not enough. Since the cost of forging such a certificate is getting lower and lower, it may not be secure. Encryption for such a site is still adequate.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/234b92c0-bc59-4075-ad46-394dd915b701/extra" alt="5. HTTPS sites with problematic encryption protocols" width="760" height="1024"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/3e626963-b22d-4882-1968-b12ec7adef00/extra" alt="5. HTTPS sites with problematic encryption protocols" width="760" height="1024"/>
 
 The fifth case represents a possible man-in-the-middle attack (since no Certificate Transparency information is provided, and SHA-1 is used).
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/093b45b4-2109-40b0-4040-6f5f6b8edf01/extra" alt="6. HTTPS sites using certificates signed by untrusted root certificates" width="760" height="1024"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/7f56766d-c7f1-4b9a-ca11-4b2d86458d00/extra" alt="6. HTTPS sites using certificates signed by untrusted root certificates" width="760" height="1024"/>
 
 The sixth case means that the website uses a certificate issued by an untrusted root certificate (or the certificate does not contain the current domain name). [Encryption tips for Chrome](https://support.google.com/chrome/answer/95617) In any case, I do not recommend you to use SHA-1 signed certificates, it is worth noting that the latest version of Safari can also choose SHA-1 signed certificates are not trusted anymore, SHA-1 is about to become obsolete.
 
@@ -113,9 +113,9 @@ For example, when visiting `http://tlo.xyz` for the first time, the browser will
 
 Go to [SSL Server Test](https://www.ssllabs.com/ssltest/index.html) to give your server's SSL configuration a score. oh, the difference
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/9c755c86-99f0-4c03-7345-55fb9b26d901/extra" alt="Rating of ze3kr.com" width="1200" height="768"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/410b0945-3f5b-45c1-9df0-e111c6f9c800/extra" alt="Rating of ze3kr.com" width="1200" height="768"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/aaff50be-bc78-428d-ad28-40cfd297ee01/extra" alt="Rating of 12306.com" width="1200" height="1112"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/a264e948-940e-46c9-82ab-2a5cab14eb00/extra" alt="Rating of 12306.com" width="1200" height="1112"/>
 
 ## Tips
 

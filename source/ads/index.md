@@ -22,9 +22,9 @@ If the content of this site is helpful to you, I would appreciate if you could t
 Usually, you need to click on the ad blocker icon and then turn off/disable blocking for this website. On mobile devices, you may need to select More - Site Settings - Content Blockers and turn it off.
 
 <picture>
-  <source src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/2ebc204f-414d-4d7d-7352-092f594df501/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
-  <source src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/a23c92bc-4e8a-4e20-4671-939a3005c301/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
-  <img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/a23c92bc-4e8a-4e20-4671-939a3005c301/extra" alt="Example of turning off ad blocking" width="1152" height="756" data-raw="true"/>
+  <source src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/b34e39b9-d321-4bdd-7e72-4102c2ae6600/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
+  <source src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/b39a70f2-ad4b-443d-bebf-fb5bddc6aa00/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
+  <img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/b39a70f2-ad4b-443d-bebf-fb5bddc6aa00/extra" alt="Example of turning off ad blocking" width="1152" height="756" data-raw="true"/>
 </picture>
 
 Of course, turning off ad blocking is voluntary. This site does not force users to turn off the ad blocker, and browsing will not be restricted after the ad blocker is enabled.

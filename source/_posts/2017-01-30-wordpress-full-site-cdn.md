@@ -55,23 +55,23 @@ Features of CloudFront as a site-wide CDN:
 
 First go to the [CloudFront Control Panel](https://console.aws.amazon.com/cloudfront/home), click "Create Distribution", select "Web", and configure something like the following. **Origin site configuration** Note that the Origin Domain Name must be a full domain name, and if HTTPS is used, a valid certificate must be configured under that domain name.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/02a39051-e4ad-4dc0-4172-892dc15e5c01/extra" alt="CloudFront basic configuration screenshot" width="1370" height="1032"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/00ca9fca-856b-4f4e-6540-e74474b9e400/extra" alt="CloudFront basic configuration screenshot" width="1370" height="1032"/>
 
 **Cache configuration**, I added Host to the Header whitelist, and Cookie to add `wordpress*` and `wp*` to the whitelist.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/b45ddf91-14c9-4c14-3d35-7f3fafbb1b01/extra" alt="CloudFront detailed configuration screenshot" width="1832" height="2304"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/54288b7e-e5e9-4790-7ec0-d2f5000b6a00/extra" alt="CloudFront detailed configuration screenshot" width="1832" height="2304"/>
 
 Then **front-end configuration**, the certificate point "Request or Import a Certificate with ACM" can apply for a certificate issued by Amazon. Fill in the domain name of your website under CNAMEs.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/0e8f31df-6ce3-492f-9e37-e6ff0c755801/extra" alt="CloudFront front-end configuration screenshot" width="1298" height="2254"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/86808e70-4b60-4657-edf3-cd5cb410bf00/extra" alt="CloudFront front-end configuration screenshot" width="1298" height="2254"/>
 
 Note that it may take less than an hour after creation to be accessed. In order to use the root domain name with CloudFront, I also had to change the DNS resolution of Route 53. Since this is a very high-precision GeoDNS, it is necessary to submit the resolution server to the major DNS cache servers, so that these cache servers can be added to the EDNS Client Subnet-enabled whitelist for your DNS cache server. Fortunately, Route 53 is one of the most popular GeoDNS, so if you use the NS records it gives you and don't customize it, you don't have to worry about it. When configuring the root domain name, simply select the A record, open Alias, and fill in the CloudFront domain name. If you want to support IPv6, then create another AAAA record. This way if you parse from the outside, you will parse directly to A records and AAAA records, not CNAMEs!
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/038eaa27-0a36-4ae0-9a29-f0b5207b1401/extra" alt="CloudFront with Route 53" width="812" height="590"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/d3bee9b4-96f5-4f97-79a0-351c1c6cb900/extra" alt="CloudFront with Route 53" width="812" height="590"/>
 
 At this point, CloudFront is configured. CloudFront now automatically caches pages for about a week, so you need to configure the cache to clear when articles are updated. I wrote a plugin that cleans all caches when there is an article update/theme modification/kernel update, cleans the article page when there is a new comment, and controls the refresh frequency to 10 minutes (this is due to the fact that CloudFront refreshes the cache is surprisingly slow, and Flushing the cache is only free for the first thousand times). Welcome to [use a plugin I made](https://wordpress.org/plugins/full-site-cache-cf/). However, the access speed of CloudFront in China is not as good as the GCE I used before. What should I do? It doesn't matter, Route 53 can use GeoDNS, I still resolve China and Taiwan to the original GCE, so the speed is only improved. Note that if you want to do this, the original server must also have a valid certificate (similarly, if your domain name has been filed, you can set it as the IP of the domestic CDN to achieve the effect of mixing domestic and international CDNs). CloudFront will affect the issuance of Let's Encrypt, so you need to continue to implement port 80 file authentication by setting Behaviors and multiple origin servers. In the actual test, the IPv4 recognition rate of Route 53 for China is 100%, and the IPv6 recognition rate is not good.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/0f5813b2-228c-4c80-fa0c-58fb6565f301/extra" alt="CloudFront with Route 53" width="1600" height="497"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/d6a3265d-75ae-412d-5d53-0f6fab6f1000/extra" alt="CloudFront with Route 53" width="1600" height="497"/>
 
 ### Actual Usage
 
@@ -124,17 +124,17 @@ That's right, the number of IPs that CloudFront assigns is too many, and it will
 
 Only the speed of international countries is compared here.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/099f4d69-bf23-4154-8c1f-202fbcca3301/extra" alt="Origin speed" width="1600" height="802"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/a8950e73-d111-472d-6fd3-e94bd9360700/extra" alt="Origin speed" width="1600" height="802"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/55298b92-01da-40c7-e364-7fc44dd22801/extra" alt="CCDN speed" width="1600" height="809"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/969d4fce-c4d5-460c-a244-72f26c233200/extra" alt="CCDN speed" width="1600" height="809"/>
 
 #### HTTPs Get Before and After Startup
 
 It is only compared to the speed of international countries also.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/5ba9e36d-bd36-46f9-0cea-71a9e33b9701/extra" alt="Origin speed" width="1503" height="1600"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/c9c20391-3342-4fe1-17ad-ada3cdd65900/extra" alt="Origin speed" width="1503" height="1600"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/c9fb0243-a44c-429f-f3fc-3a07160d3d01/extra" alt="CDN speed" width="1503" height="1600"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/f5c9c5e0-9ce4-46b7-dbc6-a162b2e76d00/extra" alt="CDN speed" width="1503" height="1600"/>
 
 TTFB is almost fully green after CDN is launched, and the time to establish TCP and TLS is significantly reduced.
 
@@ -142,7 +142,7 @@ TTFB is almost fully green after CDN is launched, and the time to establish TCP 
 
 The SSL certificate issued by CloudFront for free is a **multi-domain wildcard certificate** (Wildcard SAN), and the main name is customized, which is higher than Cloudflare's shared certificate. Such certificates cost $10 per month on Cloudflare. Such certificates are hard to buy in the market, and the price depends on the number of domain names, ranging from thousands to tens of thousands a year. However, this certificate can only be used on AWS' CloudFront and load balancers.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/a85d8c60-5e1d-46db-b326-69da3fce0701/extra" alt="Amazon Certificate" width="1174" height="1072"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/0c471dcc-4bc4-4ef4-37af-d5ccbd6fa900/extra" alt="Amazon Certificate" width="1174" height="1072"/>
 
 CloudFront's long certificate chain affects TLS times, but since it's also a CDN, this reduces TLS times to almost negligible levels. The main reason is that the Amazon Root CA is not directly trusted on macOS. If you trust it directly, you don't need to do this.
 
@@ -182,7 +182,7 @@ Features of Cloudflare as a site-wide CDN:
 
 One difference is that Cloudflare issues a shared certificate, which looks like this:
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/81152eac-5f34-4dc5-74d5-64f3d6294601/extra" alt="Cloudflare Shared Certificate" width="1176" height="750"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/dc9ebdd3-b542-47b0-e2d6-32559a429d00/extra" alt="Cloudflare Shared Certificate" width="1176" height="750"/>
 
 I think Cloudflare issues shared certificates for two reasons. One is a legacy issue: Cloudflare Professional Edition's SSL certificate service supports clients without SNI, and in order to support clients without SNI, only one certificate can be configured for one IP. Therefore, a shared certificate is used to save IP resources. And now the free version also has SSL. Although the free version uses SNI technology, the certificate cannot be more advanced than the paid version, so a shared SSL certificate is still used; the second is to add more value-added services, which is now available on Cloudflare Purchase Dedicated SSL Certificates and implement independent certificates (if the paid version is enabled, clients that do not support SNI still fall back to the shared certificate, so they are still compatible with devices that do not support SNI).
 
