@@ -16,7 +16,7 @@ The feature of this feature I developed is: when the commenter is replied, the e
 
 The content of the email is concise, without extra useless things, and will not be recognized as Spam.
 
-<img src="https://cdn.tloxygen.com/images/79965147-7feb-4117-97d0-6a3fb3ca1e00/extra" alt="Example of delivery" width="1338" height="1302"/>
+<img src="https://cdn.tlo.xyz/images/79965147-7feb-4117-97d0-6a3fb3ca1e00/extra" alt="Example of delivery" width="1338" height="1302"/>
 
 All code has been put on [GitHub Gist](https://gist.github.com/ZE3kr/8c51a6349462935cefd2e636e96e93f8).
 

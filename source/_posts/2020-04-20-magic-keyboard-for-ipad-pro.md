@@ -98,21 +98,21 @@ Weight: In terms of weight, this keyboard is much heavier than the Magic Keyboar
 
 ## Picture
 
-<img src="https://cdn.tloxygen.com/images/f6948209-9e13-4ad2-83dc-b5fd144f5300/extra" alt="Outer package, very compact" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/images/f6948209-9e13-4ad2-83dc-b5fd144f5300/extra" alt="Outer package, very compact" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/images/1e54c4ff-fce8-46e7-d0cf-8786803a4000/extra" alt="Very concise instructions" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/images/1e54c4ff-fce8-46e7-d0cf-8786803a4000/extra" alt="Very concise instructions" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/images/12672f68-74ef-405c-d198-d80090540f00/extra" alt="The measured suspension height is 10mm - 23mm" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/images/12672f68-74ef-405c-d198-d80090540f00/extra" alt="The measured suspension height is 10mm - 23mm" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/images/145c3c87-4dbb-444a-0116-76c2c3988900/extra" alt="New Debossed Apple Logo Design" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/images/145c3c87-4dbb-444a-0116-76c2c3988900/extra" alt="New Debossed Apple Logo Design" width="2560" height="1920"/>
 
 <img src="Logo looming when laying flat (effect of iPad Pro 2018 installed, compatible but not perfect)" alt="keyboard-5.jpeg" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/images/0371ce2b-63aa-4771-0d03-412279dcc800/extra" alt="Comparison with 15-inch MacBook Pro and Magic Trackpad for Mac (unmarked)" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/images/0371ce2b-63aa-4771-0d03-412279dcc800/extra" alt="Comparison with 15-inch MacBook Pro and Magic Trackpad for Mac (unmarked)" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/images/110a21c4-c75d-4737-8a15-318da7f53000/extra" alt="Comparison with the 2018 15-inch MacBook Pro (it can be clearly seen that the iPad version is roughly four times smaller)" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/images/110a21c4-c75d-4737-8a15-318da7f53000/extra" alt="Comparison with the 2018 15-inch MacBook Pro (it can be clearly seen that the iPad version is roughly four times smaller)" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/images/c7f87af2-251b-408b-d276-79564d38f900/extra" alt="Backlight comparison, both turn on the maximum brightness, and the brightness is similar." width="2560" height="1440"/>
+<img src="https://cdn.tlo.xyz/images/c7f87af2-251b-408b-d276-79564d38f900/extra" alt="Backlight comparison, both turn on the maximum brightness, and the brightness is similar." width="2560" height="1440"/>
 
 ## Function Configuration
 
@@ -120,38 +120,38 @@ Weight: In terms of weight, this keyboard is much heavier than the Magic Keyboar
 
 My touchpad doesn't have the three-finger multitasking gesture enabled by default. You need to go to Settings, Home Screen and Dock, and Multitasking to find the "Gesture" switch to turn on. After opening, four fingers on the screen will also start multitasking.
 
-<img src="https://cdn.tloxygen.com/images/7b922a79-0c52-4620-c46e-42c30933b600/extra" alt="Screenshot of three-finger gesture configuration" width="2388" height="1668"/>
+<img src="https://cdn.tlo.xyz/images/7b922a79-0c52-4620-c46e-42c30933b600/extra" alt="Screenshot of three-finger gesture configuration" width="2388" height="1668"/>
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/5f6b04e0879e5840ff556e22c066dabd/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
+  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://cdn.tlo.xyz/5f6b04e0879e5840ff556e22c066dabd/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
   <figcaption>Three finger gesture screen recording</figcaption>
 </figure>
 
 ### Pointer Animation and Touchpad Inertia
 
-<img src="https://cdn.tloxygen.com/images/360068e1-7ae2-473c-3c06-9e7afe6ad600/extra" alt="Two settings in accessibility, pointer control" width="2388" height="1668"/>
+<img src="https://cdn.tlo.xyz/images/360068e1-7ae2-473c-3c06-9e7afe6ad600/extra" alt="Two settings in accessibility, pointer control" width="2388" height="1668"/>
 
 If you turn on **pointer animation**, when you move over the button, the pointer will disappear, replaced by the adsorption effect of the button highlight. This feature can be turned off, which is closer to the experience on macOS.
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/b0f6489638fab333b9767877fbf92a8c/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true">< /iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.tlo.xyz/b0f6489638fab333b9767877fbf92a8c/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true">< /iframe></div>
   <figcaption>Turn on pointer animation</figcaption>
 </figure>
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/8fe64137c49bc848add5dc89e2ffb2c6/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.tlo.xyz/8fe64137c49bc848add5dc89e2ffb2c6/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>Turn off pointer animation</figcaption>
 </figure>
 
 Similarly, the default iPadOS will turn on touchpad inertia, and turning this feature off will be closer to the experience on macOS.
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/26a655bb13c602c45ade0bc57c12eb64/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style=" border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen=" true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.tlo.xyz/26a655bb13c602c45ade0bc57c12eb64/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style=" border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen=" true"></iframe></div>
   <figcaption>Enable touchpad inertia</figcaption>
 </figure>
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/465c56565c440f3271f2b8ee4352df8a/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style=" border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen=" true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.tlo.xyz/465c56565c440f3271f2b8ee4352df8a/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style=" border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen=" true"></iframe></div>
   <figcaption>Turn off touchpad inertia</figcaption>
 </figure>
 

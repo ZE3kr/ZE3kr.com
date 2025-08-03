@@ -141,16 +141,16 @@ theme_config:
     <h3>Oh No!😭 You blocked the ads on this site</h3>
     <p>This site relies on ads to generate revenue. Please consider turning off the ad blocking plugin to help this site continue. This content will automatically disappear after disabling. <a href="/ads/">More</a></p>
     <picture>
-      <source src="https://cdn.tloxygen.com/images/b34e39b9-d321-4bdd-7e72-4102c2ae6600/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
-      <source src="https://cdn.tloxygen.com/images/b39a70f2-ad4b-443d-bebf-fb5bddc6aa00/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
-      <img src="https://cdn.tloxygen.com/images/b39a70f2-ad4b-443d-bebf-fb5bddc6aa00/extra" alt="Example of turning off ad blocking" width="1152" height="756" data-raw="true"/>
+      <source src="https://cdn.tlo.xyz/images/b34e39b9-d321-4bdd-7e72-4102c2ae6600/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
+      <source src="https://cdn.tlo.xyz/images/b39a70f2-ad4b-443d-bebf-fb5bddc6aa00/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
+      <img src="https://cdn.tlo.xyz/images/b39a70f2-ad4b-443d-bebf-fb5bddc6aa00/extra" alt="Example of turning off ad blocking" width="1152" height="756" data-raw="true"/>
     </picture>
 
   ads:
     - title: Domain Registrar
       link: https://www.tloxygen.com
       content: |-
-        <img class="mb-1" src="https://cdn.tloxygen.com/images/648e8d54-59f6-4fb7-7926-41a8593f3400/medium" width="800" height="667"/>
+        <img class="mb-1" src="https://cdn.tlo.xyz/images/648e8d54-59f6-4fb7-7926-41a8593f3400/medium" width="800" height="667"/>
         <ul>
           <li>500+ TLDs</li>
           <li>PayPal/Card/Pay Later</li>
@@ -188,7 +188,7 @@ theme_config:
 
   user:
     name: James Guo
-    avatar: https://cdn.tloxygen.com/images/95dfd986-381d-47fa-4942-c57cf3f27900/medium
+    avatar: https://cdn.tlo.xyz/images/95dfd986-381d-47fa-4942-c57cf3f27900/medium
     location: Seattle, WA
     description: 🎯 Focusing
 
@@ -215,11 +215,11 @@ theme_config:
   appearance: auto # Default value is auto
 
   # Miscellaneous
-  favicon: https://cdn.tloxygen.com/images/95dfd986-381d-47fa-4942-c57cf3f27900/thumbnail
+  favicon: https://cdn.tlo.xyz/images/95dfd986-381d-47fa-4942-c57cf3f27900/thumbnail
   favicon_svg: /favicon.svg
 
   # picture of about page
-  about_pic: https://cdn.tloxygen.com/images/95dfd986-381d-47fa-4942-c57cf3f27900/extra
+  about_pic: https://cdn.tlo.xyz/images/95dfd986-381d-47fa-4942-c57cf3f27900/extra
 
 hide_posts:
   enable: true

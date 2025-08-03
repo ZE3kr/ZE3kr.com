@@ -181,7 +181,7 @@ This configuration is equivalent to parsing www.example.com to the partition. Du
 
 Go to your domain name registrar, enter the background to modify the settings, and add a subdomain name server record to the domain name, as shown in the figure:
 
-<img src="https://cdn.tloxygen.com/images/09ca1def-0fc9-43ba-13d5-befca09c7900/extra" alt="Add subnameserver record" width="1406" height="892"/>
+<img src="https://cdn.tlo.xyz/images/09ca1def-0fc9-43ba-13d5-befca09c7900/extra" alt="Add subnameserver record" width="1406" height="892"/>
 
 Since the NS to be set is under your own server, you must register your NS server IP address with the upper-level domain name (such as .com) on the domain name registrar, so that the upper-level domain name can resolve the IP of the NS and build your own DNS For example, there is a NS of its own under icann.org:
 

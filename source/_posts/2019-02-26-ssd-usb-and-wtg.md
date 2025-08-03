@@ -8,7 +8,7 @@ categories:
 date: 2019-02-26 16:49:52
 languages:
   zh-CN: https://www.guozeyu.com/2019/02/ssd-usb-and-wtg/
-cover: <img src="https://cdn.tloxygen.com/images/0274e854-3c52-4783-f558-88596f5e1900/extra" alt="SSD Connection Layout" width="3360" height="2240"/>
+cover: <img src="https://cdn.tlo.xyz/images/0274e854-3c52-4783-f558-88596f5e1900/extra" alt="SSD Connection Layout" width="3360" height="2240"/>
 ---
 
 Recently, I have purchased an SSD U disk and an SSD hard disk. I have Windows To Go installed on my SSD USB stick and it works fine on my Mac device. This article will share my experience.
@@ -26,7 +26,7 @@ Most of the mobile hard drives sold on the market are low-speed HDDs, because or
 
 **Do I need an SSD? **Depends on whether there is a high performance requirement. For example, **the operating system and software are suitable to be installed on the SSD**, which will greatly reduce the boot time. Some data such as documents, pictures, and videos may not require an SSD as much. If you are an image/video worker and need to store high-quality images/videos, then SSD will be very useful, it can greatly reduce the loading time of files; of course, many software are also optimized for low-performance devices, such as Lightroom Classic CC can generate previews to reduce file size; Final Cut Pro and Premiere CC can generate proxies for original footage to reduce file size, you can store previews or proxies on SSD and original files on HDD cut costs. In addition, some infrequently accessed data can also be stored on the HDD to save costs, such as data backup, surveillance video, logs, etc.
 
-<img src="https://cdn.tloxygen.com/images/8fb74170-9a14-4d71-ad31-6e9eeb370100/extra" alt="mSATA mini type SSD (from amazon.com) 3.0cm * 2.7cm * 0.4cm" width="620" height="558"/>
+<img src="https://cdn.tlo.xyz/images/8fb74170-9a14-4d71-ad31-6e9eeb370100/extra" alt="mSATA mini type SSD (from amazon.com) 3.0cm * 2.7cm * 0.4cm" width="620" height="558"/>
 
 In addition, SSD can have lighter weight and smaller volume, so that SSD can be made into the size of U disk. The HDD will be much larger. Take the smallest 2.5-inch HDD that is commonly used today as an example, its length is 10cm and the width is 7cm, not including the casing part. The length, width and height of the SSD shown in the picture above are only 3.0cm \* 2.7cm \* 0.4cm, and the weight is less than 40g. It is less than one-third the length of an HDD.
 
@@ -36,7 +36,7 @@ SSDs can also be very large, for example, the 15-inch MacBook Pro can even choos
 
 SSD peripherals have such high read and write speeds that only 5Gbps USB3.0 and USB3.1 Gen1, or 10Gbps USB3.1 Gen2 can be used to reflect its performance, and the speed of these interfaces is enough for SATA SSDs . However, to achieve its full performance, a 20Gbps Thunderbolt 2 or 40Gbps Thunderbolt 3 interface is required, as most NVMe SSDs have read and write performance greater than 10Gbps but not more than 20Gbps. It's almost pointless to use a 480Mbps USB2.0 SSD, so you'll be hard-pressed to find such a product. The prices of SSD peripherals with different interfaces are also clearly differentiated. The higher the interface used, the more expensive it is. A mobile SSD with a Thunderbolt port will be 2~3 times more expensive (2~4 times faster) than a USB port.
 
-<img src="https://cdn.tloxygen.com/images/6ebd6f25-bd5d-41ed-a73b-3a53e6a33d00/extra" alt="Interface protocol comparison chart (from thunderbolttechnology.net)" width="3915" height="3000"/>
+<img src="https://cdn.tlo.xyz/images/6ebd6f25-bd5d-41ed-a73b-3a53e6a33d00/extra" alt="Interface protocol comparison chart (from thunderbolttechnology.net)" width="3915" height="3000"/>
 
 The shape of the Thunderbolt3 interface is exactly the same as that of the USB Type-C. Some mobile hard drives use the Type-C interface, but it does not mean that it is Thunderbolt3. You may need to see if it supports Thunderbolt by looking for the Thunderbolt ⚡️ logo. In addition, mobile hard disks using Thunderbolt3 interface may not support USB protocol. For example, the HP P800 mobile hard disk I purchased does not support USB protocol, and cannot be converted to USB, nor can it be converted to Thunderbolt2, so its compatibility is greatly reduced. . USB3.x devices are usually compatible with USB2.0, and USB Type-A and Type-C can also be transferred to each other, so USB devices have better compatibility.
 
@@ -44,7 +44,7 @@ The shape of the Thunderbolt3 interface is exactly the same as that of the USB T
 
 **SSD U-disk** is equivalent to a smaller SSD mobile hard disk, and its volume may be similar to an ordinary U disk. Due to the reduction in size, the read/write performance and heat dissipation performance of SSD U disks are generally inferior to SSD mobile hard disks. And even fewer USB sticks that support Thunderbolt.
 
-<img src="https://cdn.tloxygen.com/images/a1d39447-9eb7-40d4-dbef-9852d106f400/extra" alt="From left to right: iPhone XS, HP P800 Thunderbolt3 SSD, CHIPFANCIER USB3.1 Gen2 Type-C SSD" width="3360" height="2240"/>
+<img src="https://cdn.tlo.xyz/images/a1d39447-9eb7-40d4-dbef-9852d106f400/extra" alt="From left to right: iPhone XS, HP P800 Thunderbolt3 SSD, CHIPFANCIER USB3.1 Gen2 Type-C SSD" width="3360" height="2240"/>
 
 | | HP P800 SSD | CHIPFANCIER SSD |
 | ----- | ----- | ----- |
@@ -57,7 +57,7 @@ The shape of the Thunderbolt3 interface is exactly the same as that of the USB T
 | Capacity | 256GB/512GB/1TB/2TB |
 | (2TB version not released yet) | 128GB/256GB/512GB/1TB |
 
-<img src="https://cdn.tloxygen.com/images/0274e854-3c52-4783-f558-88596f5e1900/extra" alt="On a MacBook Pro, even if a CHIPFANCIER SSD USB flash drive is installed in one port, there is still room for other Type-C devices to be connected to the port next to it." width="3360" height="2240"/>
+<img src="https://cdn.tlo.xyz/images/0274e854-3c52-4783-f558-88596f5e1900/extra" alt="On a MacBook Pro, even if a CHIPFANCIER SSD USB flash drive is installed in one port, there is still room for other Type-C devices to be connected to the port next to it." width="3360" height="2240"/>
 
 ## Disk Format Selection
 
@@ -103,7 +103,7 @@ To install Windows To Go (WTG), you need a Windows environment, which can be a P
 After the installation is successful, you can choose to boot from the U disk when the computer starts, or boot from the U disk in the virtual machine. Here's how to start it on a Mac and launch in WTG and VMware Fusion on macOS.
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/d99af30ada995905d245761ca8ea3fd9/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.tlo.xyz/d99af30ada995905d245761ca8ea3fd9/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
   <figcaption>The MacBook Pro boots into Windows To Go. </figcaption>
 </figure>
 
@@ -113,12 +113,12 @@ A freshly installed Windows may not have drivers for your Mac's mouse and touchp
 
 You need to install the Mac driver for Windows. The Windows Support Software (drivers) can be manually "downloaded" from the Actions menu in the Mac's Boot Camp software. Note that the drivers of different models of Macs are different, it is recommended to use the system software download. If you need to use a WTG on multiple Macs, you will need to install multiple drivers. Boot Camp Assistant is to help users install Windows dual system on Mac local hard disk, **cannot** be used to install Windows To Go, here **just use it to install drivers**.
 
-<img src="https://cdn.tloxygen.com/images/fccb2de1-54cd-461e-d351-b3f51d7c5100/extra" alt="BootCamp Download Windows Support Software Screenshot" width="1570" height="1144"/>
+<img src="https://cdn.tlo.xyz/images/fccb2de1-54cd-461e-d351-b3f51d7c5100/extra" alt="BootCamp Download Windows Support Software Screenshot" width="1570" height="1144"/>
 
 **It is recommended to save the driver on another USB disk recognized by Windows** (see "Selecting the Disk Format" in this article). Then boot into WTG again and install it.
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/aaf2fac6d0f2848c78c39c6e633b9af7/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.tlo.xyz/aaf2fac6d0f2848c78c39c6e633b9af7/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
   <figcaption>macOS uses VMware Fusion to enter WTG. </figcaption>
 </figure>
 
@@ -138,6 +138,6 @@ I have installed some common software on WTG. On other PCs, I don't necessarily 
 
 I installed Windows on the SSD U disk from CHIPFANCIER, which features a USB3.1 Gen2 Type-C interface, so it can be used on a new Mac without an adapter. Then I purchased a Type-C to Type-A adapter (USB 3.0) from Greenlink, which can transfer this USB flash drive to a Type-A device.
 
-<img src="https://cdn.tloxygen.com/images/1efb1778-480f-4bdd-2f22-7d0076d5d600/extra" alt="Greenlink Type-C to Type-A" width="3360" height="2240"/>
+<img src="https://cdn.tlo.xyz/images/1efb1778-480f-4bdd-2f22-7d0076d5d600/extra" alt="Greenlink Type-C to Type-A" width="3360" height="2240"/>
 
-<img src="https://cdn.tloxygen.com/images/a5ead320-b04d-4d72-6aca-310bd11dd100/extra" alt="Greenlink Type-C to Type-A After connection" width="3360" height="2240"/>
+<img src="https://cdn.tlo.xyz/images/a5ead320-b04d-4d72-6aca-310bd11dd100/extra" alt="Greenlink Type-C to Type-A After connection" width="3360" height="2240"/>

@@ -24,7 +24,7 @@ Since the alarm in the AWS China region has been changed to correct by me at thi
 
 Then I logged in to my self-built Observium monitoring, and saw that the machine of Alibaba Cloud Hong Kong was down without any surprise. But I found that before the crash, the server's CPU was 100%. I wondered if a program on my own server was stuck and took up all resources, making it seem that HTTP/HTTPS/SSH services were unavailable.
 
-<img src="https://cdn.tloxygen.com/images/7a07873c-5da4-4f14-b757-defe211e1400/extra" alt="Observium Monitor" width="1946" height="1436"/>
+<img src="https://cdn.tlo.xyz/images/7a07873c-5da4-4f14-b757-defe211e1400/extra" alt="Observium Monitor" width="1946" height="1436"/>
 
 It is already 11:30 at this time, and I still think this is my own problem. After all, I have not received any email or phone reminder from Alibaba Cloud. So I logged into the Alibaba Cloud background and tried to restart. At this point I don't have the option to force shutdown. As a result, the shutdown command has been executed for 10 minutes, and the machine still does not turn off. Usually when I use GCP, if the shutdown command is executed for more than two minutes, it will automatically perform a forced shutdown, so it is outrageous to execute a shutdown of 10 minutes at this time. Then I tried to send a work order, but I failed to enter the work order and was transferred to the online customer service. After I described the problem to the online customer service, no one responded. Then I tried to send a work order again, but no one responded to the work order. Just got a bot reply saying that on shutdown, Windows will perform a system update, which sometimes takes 10-15 minutes. Please contact customer service after waiting 20 minutes.
 
