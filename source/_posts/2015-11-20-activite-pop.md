@@ -7,7 +7,7 @@ id: 220
 categories:
   - - Technology
 date: 2015-11-20 17:27:29
-cover: https://cdn.tlo.xyz/12d9fb47f8bf1560187d3b57c26816f1/thumbnails/thumbnail.jpg?time=1m4s
+cover: https://customer-qz3v4c7e4vfly110.cloudflarestream.com12d9fb47f8bf1560187d3b57c26816f1/thumbnails/thumbnail.jpg?time=1m4s
 video: 12d9fb47f8bf1560187d3b57c26816f1
 languages:
   zh-CN: https://www.guozeyu.com/2015/11/activite-pop/
@@ -33,5 +33,5 @@ Up to 8 months of battery life on standard coin cell batteries.
 ## Video
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.tlo.xyz/12d9fb47f8bf1560187d3b57c26816f1/iframe?preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>< /div>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/12d9fb47f8bf1560187d3b57c26816f1/iframe?preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>< /div>
 </figure>
