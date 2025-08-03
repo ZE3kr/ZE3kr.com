@@ -103,15 +103,6 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-claudia
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo:
-    hk1-ali: ze3kr@hk1-ali.s.tlo.xyz:~/sync/ZE3kr.com.git,main
-    us1-gcp: ~/sync/ZE3kr.com.git,main
-    de1-ovh: ze3kr@de1-ovh.s.tlo.xyz:~/sync/ZE3kr.com.git,main
-
 feed:
   enable: true
   type: atom

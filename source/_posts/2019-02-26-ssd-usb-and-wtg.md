@@ -103,7 +103,7 @@ To install Windows To Go (WTG), you need a Windows environment, which can be a P
 After the installation is successful, you can choose to boot from the U disk when the computer starts, or boot from the U disk in the virtual machine. Here's how to start it on a Mac and launch in WTG and VMware Fusion on macOS.
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.tlo.xyz/d99af30ada995905d245761ca8ea3fd9/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/d99af30ada995905d245761ca8ea3fd9/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
   <figcaption>The MacBook Pro boots into Windows To Go. </figcaption>
 </figure>
 
@@ -118,7 +118,7 @@ You need to install the Mac driver for Windows. The Windows Support Software (dr
 **It is recommended to save the driver on another USB disk recognized by Windows** (see "Selecting the Disk Format" in this article). Then boot into WTG again and install it.
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.tlo.xyz/aaf2fac6d0f2848c78c39c6e633b9af7/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/aaf2fac6d0f2848c78c39c6e633b9af7/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe ></div>
   <figcaption>macOS uses VMware Fusion to enter WTG. </figcaption>
 </figure>
 
