@@ -9,7 +9,7 @@ categories:
 date: 2016-12-24 20:18:24
 languages:
   zh-CN: https://www.guozeyu.com/2016/12/domain-name-system/
-cover: <img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/6302713c-e9ae-4705-ad54-ae8f8c324100/extra" alt="Global DNS topology map" width="2000" height="1467"/>
+cover: <img src="https://cdn.tloxygen.com/images/6302713c-e9ae-4705-ad54-ae8f8c324100/extra" alt="Global DNS topology map" width="2000" height="1467"/>
 ---
 
 The mission of DNS (Domain Name Resolution System) is to serve the bottom layer of content related to domain names. Is the core component of a domain name (eg `example.com`). The vast majority of things related to domain names are inseparable from it. for example:
@@ -43,7 +43,7 @@ Local DNS is much simpler than global DNS. So let's start with the local DNS. `1
 
 It defines the `localhost` domain name corresponding to the `127.0.0.1` IP (the second line is the IPv6 address). In this way, when you visit this domain name from a browser, or execute Ping in the terminal, it will automatically query the `hosts` file, and get the IP address from the file. In addition, the `hosts` file can also control the IP address corresponding to other domain names, and can override its value in the global DNS or the local network DNS. However, the `hosts` file can only control local name resolution. When the `hosts` file appeared, there was no DNS, but it was arguably the predecessor of DNS. If you need to share the same DNS in a network, you need to use IP packets to obtain DNS records from a server. In a network (here mainly refers to the local network, such as all devices connected to a router in a home and the network composed of this router), there will be many hosts. When communicating with these hosts, it is more convenient to use a domain name. Typically, devices connected to the same router are set to one of the router's own DNS servers. In this way, the resolved domain name can be obtained not only from hosts, but also from this server. Get DNS records from another IP through DNS query. DNS query is usually based on IP data packets such as UDP or TCP to achieve remote query. My PC's network configuration is as follows, which was set up automatically after my PC was connected to the router:
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/9c7a9068-a7cd-471d-625d-dd62fd871d00/extra" alt="Network configuration screenshot" width="754" height="444"/>
+<img src="https://cdn.tloxygen.com/images/9c7a9068-a7cd-471d-625d-dd62fd871d00/extra" alt="Network configuration screenshot" width="754" height="444"/>
 
 The focus is on routers and search domains. The hostname of my computer (also the computer name) is set to `ze3kr`, this content is also known by the router when connecting to the router, so the router assigns a domain name `ze3kr.local`, `local` to my host This first-level domain name is exclusively for local use. When all hosts in this network access the domain name `ze3kr.local`, the router (`10.0.1.1`) will inform the IP address corresponding to this domain name, so these hosts can get the IP address of my computer. As for the function of the search domain, it is actually possible to save the input of the complete domain name, such as:
 
@@ -67,7 +67,7 @@ Locally, the local cache lookup record is read first, then the Hosts file is rea
 
 In the global DNS, a complete domain name usually contains multiple levels, for example `example.com.` is a second-level domain name, `www.example.com.` is a third-level domain name. Usually the domain names we commonly see are full domain names.
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/6302713c-e9ae-4705-ad54-ae8f8c324100/extra" alt="Global DNS topology map" width="2000" height="1467"/>
+<img src="https://cdn.tloxygen.com/images/6302713c-e9ae-4705-ad54-ae8f8c324100/extra" alt="Global DNS topology map" width="2000" height="1467"/>
 
 The first-level domain name is divided into the following three parts:
 
