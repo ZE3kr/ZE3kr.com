@@ -52,13 +52,13 @@ After some research, I found an amazing new feature: 27 AF points (9 of which ar
 
 Compare the focusing capabilities of different focusing systems under F8:
 
-<img src="https://cdn.tlo.xyz/images/42bff62f-8386-4eb8-a033-bac7ff7a6e00/extra" alt="EOS 80D G组" width="1182" height="628"/>
+<img src="https://cdn.tloxygen.com/images/42bff62f-8386-4eb8-a033-bac7ff7a6e00/extra" alt="EOS 80D G组" width="1182" height="628"/>
 
-<img src="https://cdn.tlo.xyz/images/efad0fdb-3caf-493b-4b94-29dd5facf900/extra" alt="EOS 1DX Mark II" width="1184" height="632"/>
+<img src="https://cdn.tloxygen.com/images/efad0fdb-3caf-493b-4b94-29dd5facf900/extra" alt="EOS 1DX Mark II" width="1184" height="632"/>
 
-<img src="https://cdn.tlo.xyz/images/2aacf5aa-d767-4847-025a-1ae0015f3800/extra" alt="EOS 1DX/5D Mark III/5DS/5DR" width="1182" height="628"/>
+<img src="https://cdn.tloxygen.com/images/2aacf5aa-d767-4847-025a-1ae0015f3800/extra" alt="EOS 1DX/5D Mark III/5DS/5DR" width="1182" height="628"/>
 
-<img src="https://cdn.tlo.xyz/images/27d5aa82-0328-4fce-6453-e9159583a200/extra" alt="EOS 7D Mark II" width="1180" height="626"/>
+<img src="https://cdn.tloxygen.com/images/27d5aa82-0328-4fce-6453-e9159583a200/extra" alt="EOS 7D Mark II" width="1180" height="626"/>
 
 wow! The 80D is amazing, but which lenses support its Group G autofocus?
 
@@ -67,7 +67,7 @@ wow! The 80D is amazing, but which lenses support its Group G autofocus?
 
 Um, I feel cheated. How many focusing points do the unsupported lenses have under F8?
 
-<img src="https://cdn.tlo.xyz/images/bbd703ee-c187-41c9-d740-fbbec2e62000/extra" alt="EOS 80D Group H" width="1180" height="626"/>
+<img src="https://cdn.tloxygen.com/images/bbd703ee-c187-41c9-d740-fbbec2e62000/extra" alt="EOS 80D Group H" width="1180" height="626"/>
 
 One, only one, not even a secondary focus point, but at least it's better than the 70D. In addition, the new 45-point full-cross focus should be inferior to the 65-point full-cross focus in all aspects.
 
@@ -95,21 +95,21 @@ It is worth noting that the focusing system, Hybrid CMOS AF III has only appeare
 
 Canon is equipped with an optical viewfinder with a field of view of about 100% for the first time on the EOS 2-digit model, and this function is still very important. And the 80D viewfinder has some new elements, which I call a "(pseudo) electronic level"
 
-<img src="https://cdn.tlo.xyz/images/0b780835-5ac5-4f9a-9f93-bbfb89582800/extra" alt="Electronic Level" width="320" height="241"/>
+<img src="https://cdn.tloxygen.com/images/0b780835-5ac5-4f9a-9f93-bbfb89582800/extra" alt="Electronic Level" width="320" height="241"/>
 
 Why is it fake? Because of its limited capabilities:
 
-<img src="https://cdn.tlo.xyz/images/c6ae13af-09db-4047-274f-c41712ee5800/extra" alt="Electronic level display standard" width="235" height="115"/>
+<img src="https://cdn.tloxygen.com/images/c6ae13af-09db-4047-274f-c41712ee5800/extra" alt="Electronic level display standard" width="235" height="115"/>
 
 The original version is like this, do you see the level above it? biaxial.
 
-<img src="https://cdn.tlo.xyz/images/782f4878-41ac-4867-76bb-669531f21c00/extra" alt="Level on EOS 7D Mark II" width="670" height="290"/>
+<img src="https://cdn.tloxygen.com/images/782f4878-41ac-4867-76bb-669531f21c00/extra" alt="Level on EOS 7D Mark II" width="670" height="290"/>
 
 ### Special Scene Mode
 
 When I saw this mode, I laughed, once again confirming that the 80D will not be a professional or quasi-professional camera.
 
-<img src="https://cdn.tlo.xyz/images/fcdb6721-2cea-4289-ef38-48d9570a3600/extra" alt="Special Scene Mode" width="320" height="290"/>
+<img src="https://cdn.tloxygen.com/images/fcdb6721-2cea-4289-ef38-48d9570a3600/extra" alt="Special Scene Mode" width="320" height="290"/>
 
 > Some representative shooting scenes are collected in the special scene mode, and the camera can make corresponding shooting settings according to the specific scenes. There are 10 optional scenes, including handheld night scene, candlelight, and children. The operation during shooting is simple. Just like using a smartphone, slide your finger on the LCD monitor and touch the selection icon, and the camera can find the appropriate settings according to the characteristics of the subject and shooting environment to take good photos.
 

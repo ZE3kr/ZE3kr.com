@@ -53,7 +53,7 @@ After using the Vision Pro for a while, whenever I see a screen in the real worl
 
 The software feels like it's at a late Beta stage for Apple, not quite a final version. First, it currently only supports input in English (US), not supporting any other language input (including Chinese), both for the keyboard and Siri voice commands. Also, I noticed that visionOS 1.0.2 does not support [iMessage Contact Key Verification](https://support.apple.com/en-us/HT213465) introduced with iOS 17.2. This was hinted at by Xcode: if you set the Minimum Deployment in Xcode 15.2 to 17.2, the software won't run on visionOS 1.0.2. Thus, it can be concluded that visionOS 1.0.2 = iOS 7.1. This shows that Apple rushed the release of Vision Pro, perhaps because they felt visionOS 1.1 had too many bugs to release, leading to current functionality mismatches. For reference: iOS 17.1 was released on October 25, 2023, and iOS 17.2 on December 11, 2023.
 
-<img src="https://cdn.tlo.xyz/images/c3f57a0e-ada0-4837-2280-a56e8c55f400/extra" alt="IMG_0002 2.jpeg" width="782" height="586"/>
+<img src="https://cdn.tloxygen.com/images/c3f57a0e-ada0-4837-2280-a56e8c55f400/extra" alt="IMG_0002 2.jpeg" width="782" height="586"/>
 
 ## External USB Devices
 

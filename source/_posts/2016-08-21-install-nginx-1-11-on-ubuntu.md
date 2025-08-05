@@ -9,7 +9,7 @@ categories:
 date: 2016-08-21 10:52:13
 languages:
   zh-CN: https://www.guozeyu.com/2016/08/install-nginx-1-11-on-ubuntu/
-cover: <img src="https://cdn.tlo.xyz/images/1fc7ff44-15e1-46f8-574c-9e8d04499500/extra" alt="ECDSA certificate" width="1078" height="1220"/>
+cover: <img src="https://cdn.tloxygen.com/images/1fc7ff44-15e1-46f8-574c-9e8d04499500/extra" alt="ECDSA certificate" width="1078" height="1220"/>
 ---
 
 The software source that comes with Ubuntu 16.04.01 is Nginx 1.10.0, but there are bugs in the HTTP/2 module of this version of Nginx, [see here for details](https://imququ.com/post/nginx-http2 -post-bug.html). Now Nginx 1.12 Stable has been launched, just install the Stable version directly. Update 2018-06: If you are using Ubuntu 18.04 or later, the default Nginx version (1.14) from the system's repositories is sufficient.
@@ -147,8 +147,8 @@ ssl_stapling_verify on;
 
 Don't forget to `nginx -s reload` at the end, then [go to SSL Labs](https://www.ssllabs.com/ssltest/index.html) to check the configuration, you can see that the old browsers use RSA certificates (I The server has a dedicated IP, so it can also be accessed without SNI support):
 
-<img src="https://cdn.tlo.xyz/images/306c9988-ed39-40fe-9246-273aeed6da00/extra" alt="Supported Clients" width="1048" height="1446"/>
+<img src="https://cdn.tloxygen.com/images/306c9988-ed39-40fe-9246-273aeed6da00/extra" alt="Supported Clients" width="1048" height="1446"/>
 
 At this point, the ECDSA/RSA dual certificate configuration is complete, and you can view the certificate type in the browser:
 
-<img src="https://cdn.tlo.xyz/images/1fc7ff44-15e1-46f8-574c-9e8d04499500/extra" alt="ECDSA certificate" width="1078" height="1220"/>
+<img src="https://cdn.tloxygen.com/images/1fc7ff44-15e1-46f8-574c-9e8d04499500/extra" alt="ECDSA certificate" width="1078" height="1220"/>

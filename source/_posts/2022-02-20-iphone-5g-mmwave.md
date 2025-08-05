@@ -16,11 +16,11 @@ Recently, I used the National Bank and the US version of the iPhone to compare t
 
 <!-- more -->
 
-<img src="https://cdn.tlo.xyz/images/b55d08fb-5dc8-464a-e9d3-9702299bfc00/extra" alt="mmWave 5G (28 GHz)" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/images/b55d08fb-5dc8-464a-e9d3-9702299bfc00/extra" alt="mmWave 5G (28 GHz)" width="1125" height="2436"/>
 
 It can be seen that millimeter wave 5G (high frequency, mmWave) easily ran to 2000Mbps. In theory, millimeter wave can reach 3000Mbps, but I have tried many times and the highest "just" 2000Mbps.
 
-<img src="https://cdn.tlo.xyz/images/2a7e5416-85e2-4212-1c2d-462ae8a38100/extra" alt="IF 5G (3.7 GHz)" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/images/2a7e5416-85e2-4212-1c2d-462ae8a38100/extra" alt="IF 5G (3.7 GHz)" width="1170" height="2532"/>
 
 The mid-band 5G (Mid-Band) "only" ran to 929Mbps.
 
@@ -30,19 +30,19 @@ According to this test, millimeter wave 5G is about 2 times faster than intermed
 
 Enter `*3001#12345#*` on the call page of the system, then click to call:
 
-<img src="https://cdn.tlo.xyz/images/b1ca8aaa-8c97-478d-4127-b279d1917c00/extra" alt="System call interface" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/images/b1ca8aaa-8c97-478d-4127-b279d1917c00/extra" alt="System call interface" width="1170" height="2532"/>
 
 Then we can see the Field Test Mode as shown below:
 
-<img src="https://cdn.tlo.xyz/images/913d742b-d16a-4407-da2a-c1d7749dfc00/extra" alt="iPhone Field Test Mode" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/images/913d742b-d16a-4407-da2a-c1d7749dfc00/extra" alt="iPhone Field Test Mode" width="1170" height="2532"/>
 
 Then click More on the top right and select Nr ConnectionStats in 5G. If you can't see 5G, it means there is no 5G signal currently.
 
-<img src="https://cdn.tlo.xyz/images/f8eb22cb-7080-494d-227b-9d7a7e656d00/extra" alt="Enter 5G menu in Field Test Mode" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/images/f8eb22cb-7080-494d-227b-9d7a7e656d00/extra" alt="Enter 5G menu in Field Test Mode" width="1170" height="2532"/>
 
 Then look at the numbers in Band:
 
-<img src="https://cdn.tlo.xyz/images/d7f2374d-f4d4-4742-a3a5-d2d86265bd00/extra" alt="5G - Nr ConnectionStats - Band" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/images/d7f2374d-f4d4-4742-a3a5-d2d86265bd00/extra" alt="5G - Nr ConnectionStats - Band" width="1170" height="2532"/>
 
 If the number is less than 100 (as shown above), mmWave is not used. If the display is greater than 100 (common 257-262), it means that you have connected to mmWave 5G. The specific frequencies used can refer to [this table](https://en.wikipedia.org/wiki/5G_NR_frequency_bands#Frequency_bands).
 
@@ -52,7 +52,7 @@ Not all 5G-enabled iPhones support mmWave 5G. Currently only the iPhone 12 and 1
 
 According to [Apple's official website] (https://support.apple.com/zh-cn/HT211828), 5G has various icons. If only 5G is displayed, it is connected to the most common 5G, and the speed is relatively slow. If you see 5G+, 5G UW, and 5G UC, you may be connected to mmWave 5G, which is faster. But in reality, showing 5G+, 5G UW, and 5G UC does not imply the use of mmWave 5G (and possibly only mid-band 5G). Also, in countries other than the US, even if connected to mid-band 5G, only 5G is shown.
 
-<img src="https://cdn.tlo.xyz/images/be05ace1-821c-4dbf-aae0-60d2e0722900/extra" alt="5G Icon List" width="828" height="918"/>
+<img src="https://cdn.tloxygen.com/images/be05ace1-821c-4dbf-aae0-60d2e0722900/extra" alt="5G Icon List" width="828" height="918"/>
 
 ## Three Common frequency bands for 5G: low frequency, medium frequency, mmWave
 
@@ -81,9 +81,9 @@ Search your phone model on [Apple's official website](https://www.apple.com.cn/i
 
 There's an easier way: look for an opening for a millimeter-wave antenna on the right side of the iPhone (Image credit Apple)
 
-<img src="https://cdn.tlo.xyz/images/9d6dc407-9a7a-4a19-775a-607da66bc800/extra" alt="mmWave antenna locations for iPhones that support mmWave" width="2636" height="472"/>
+<img src="https://cdn.tloxygen.com/images/9d6dc407-9a7a-4a19-775a-607da66bc800/extra" alt="mmWave antenna locations for iPhones that support mmWave" width="2636" height="472"/>
 
-<img src="https://cdn.tlo.xyz/images/06a6420e-8aa5-4509-730b-cd02e5fd1900/extra" alt="iPhones that do not support mmWave do not have mmWave antennas" width="2636" height="472"/>
+<img src="https://cdn.tloxygen.com/images/06a6420e-8aa5-4509-730b-cd02e5fd1900/extra" alt="iPhones that do not support mmWave do not have mmWave antennas" width="2636" height="472"/>
 
 This mmWave antenna opening is very similar to the wireless charging opening for the Apple Pencil in the iPad series, but they are really not the same thing, don't get confused.
 

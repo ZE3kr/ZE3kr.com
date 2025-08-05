@@ -20,21 +20,21 @@ What you are visiting right now, `ze3kr.com`, is part of my portfolio. You can v
 
 WildHelper is a mobile app for the students at Beijing University of Technology to check their scores. Besides checking the score, it also supports viewing class schedule, exam, and add supports for score notification. [Official Website (Chinese only)](https://wildhelper.github.io/)
 
-<img src="https://cdn.tlo.xyz/images/02099d11-b593-4bfa-e16d-9417cc0fcd00/extra" alt="Main screenshot" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/images/02099d11-b593-4bfa-e16d-9417cc0fcd00/extra" alt="Main screenshot" width="1125" height="2436"/>
 
-<img src="https://cdn.tlo.xyz/images/bcc49c6d-9859-48ed-7c48-941f9c30c400/extra" alt="CET 4/6 score" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/images/bcc49c6d-9859-48ed-7c48-941f9c30c400/extra" alt="CET 4/6 score" width="1125" height="2436"/>
 
-<img src="https://cdn.tlo.xyz/images/a8b7a293-4ae2-4c63-c7b2-6a174f457f00/extra" alt="Course Schedule" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/images/a8b7a293-4ae2-4c63-c7b2-6a174f457f00/extra" alt="Course Schedule" width="1125" height="2436"/>
 
-<img src="https://cdn.tlo.xyz/images/fcb23914-d589-4088-4ade-9e33a9701b00/extra" alt="View the exam date and location" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/images/fcb23914-d589-4088-4ade-9e33a9701b00/extra" alt="View the exam date and location" width="1125" height="2436"/>
 
-<img src="https://cdn.tlo.xyz/images/b6441a40-9560-4ae6-ae09-38b114a86b00/extra" alt="Course listing and grade distribution" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/images/b6441a40-9560-4ae6-ae09-38b114a86b00/extra" alt="Course listing and grade distribution" width="1125" height="2436"/>
 
-<img src="https://cdn.tlo.xyz/images/73550bd5-3c1b-4a17-5e16-60ae91a61e00/extra" alt="Grade distribution for a specific course" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/images/73550bd5-3c1b-4a17-5e16-60ae91a61e00/extra" alt="Grade distribution for a specific course" width="1125" height="2436"/>
 
-<img src="https://cdn.tlo.xyz/images/b945eff9-8f02-467f-999c-ec437726ce00/extra" alt="Dark mode" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/images/b945eff9-8f02-467f-999c-ec437726ce00/extra" alt="Dark mode" width="1125" height="2436"/>
 
-<img src="https://cdn.tlo.xyz/images/15c8cd1f-9fd5-4e58-ada0-206e0313da00/extra" alt="Dark mode schedule" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/images/15c8cd1f-9fd5-4e58-ada0-206e0313da00/extra" alt="Dark mode schedule" width="1125" height="2436"/>
 
 ### Core Function
 
@@ -71,6 +71,6 @@ This project allows Cloudflare Hosting Partner to provide a panel for customers,
 + Supports mobile devices.
 + Supports multi-languages.
 
-<img src="https://cdn.tlo.xyz/images/04c82c8f-2f18-4fa6-1797-50e1e817f300/extra" alt="Screenshot on Desktop" width="2508" height="1362"/>
+<img src="https://cdn.tloxygen.com/images/04c82c8f-2f18-4fa6-1797-50e1e817f300/extra" alt="Screenshot on Desktop" width="2508" height="1362"/>
 
-<img src="https://cdn.tlo.xyz/images/8d530cec-e0e0-4051-0298-e66d1bf04900/extra" alt="Screenshot on Mobile" width="866" height="938"/>
+<img src="https://cdn.tloxygen.com/images/8d530cec-e0e0-4051-0298-e66d1bf04900/extra" alt="Screenshot on Mobile" width="866" height="938"/>
