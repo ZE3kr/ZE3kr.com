@@ -152,22 +152,6 @@ theme_config:
       content: |-
         <img class="mb-1" src="https://cdn.tloxygen.com/images/648e8d54-59f6-4fb7-7926-41a8593f3400/medium" width="800" height="667"/>
 
-  links:
-    # - title: Disable Ad Block
-    #   url: /ads/
-    #   domain: Thanks
-    #   tloC: true
-    - title: Shared Hosting
-      url: https://www.tloxygen.com/web-hosting/index.php
-      domain: $3.59/mo
-      # tloB: true
-    - title: 2C2G SSD VPS
-      url: https://www.tloxygen.com/virtualserverlinux-hosting.php
-      domain: $14.39/mo
-    - title: Zeus Wang
-      url: https://www.zeus.wang
-      domain: Zeus.Wang
-
   # social config
   social:
     # twitter: ZE3kr
