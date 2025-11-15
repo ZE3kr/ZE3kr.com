@@ -96,3 +96,7 @@ These federal FDCPA cases are usually not handled in small claims court. If you 
 ### How much can you get?
 
 I can’t disclose my settlement terms, so **I can’t tell you how much I received.** It really depends on the case, and many cases end in settlement. For settlements, the amount usually takes attorney’s fees into account. My lawyer’s fee was 45% of the settlement, and I was responsible for about $500 in court filing fees (in other words, I got roughly X * 55% - $500). Note that if you settle, the entire settlement amount is generally taxable income, and attorney’s fees and court filing fees may not be fully deductible ([Commissioner v. Banks, 543 U.S. 426 (2005)](https://en.wikipedia.org/wiki/Commissioner_v._Banks)). So if you’re in a high tax bracket that year, there’s a real chance the IRS will claw back a good chunk. (**Not tax advice.**)
+
+## Attachment: The certified mail I sent
+
+<img src="https://cdn.tloxygen.com/images/f41e13cf-bf60-4655-1013-207eab3fa700/extra" alt="Debt Verification" width="3935" height="2414"/>
