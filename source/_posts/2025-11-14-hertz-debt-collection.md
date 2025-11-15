@@ -42,7 +42,7 @@ The key leverage I had against the debt collector was that they violated the FDC
 - I was furious. Under the FDCPA, I worked with ChatGPT to draft a written debt verification request plus a cease-call letter and sent it by certified mail. The postage was about $10 (I used [Certified Mail Labels.com](https://www.certifiedmaillabels.com)), which I had to pay, but in exchange I got peace and a solid evidentiary record—totally worth it. I used the template from [that article](https://www.uscreditcardguide.com/jingyanfenxiang-ruhezhengquedeyutaozhaigongsizuodouzheng/), asking them to provide an itemized cost for the $400 “Return on Damage” issued by a third party.
 - Around this time, I also double-checked the insurance situation: AmEx told me they had already mailed a check to Hertz (I couldn’t confirm whether it had been cashed), and Hertz customer service still wouldn’t pick up.
 
-## The big twist: they ignored my written “cease calling” notice
+## The big twist: they still harass me
 
 While I was waiting for them to mail me proper debt verification that I knew they probably couldn’t produce, the twist came:
 
@@ -52,7 +52,7 @@ While I was waiting for them to mail me proper debt verification that I knew the
 - I immediately filed complaints with the CFPB and BBB, asking them to stop the harassment and asserting my right to statutory damages of $1,000 under the FDCPA. The collector’s only response was that they would “close the account, not report it to the credit bureaus, and stop calling.” They neither compensated me nor admitted wrongdoing or apologized, so I had no intention of letting it go.
 
 
-## Going to court: attorney review and filing
+## Going to court!
 
 I fed all of the information into what was then the best model, ChatGPT o3-mini-high, and also used its Deep Research feature to have it review prior cases and see whether I had a good claim. GPT’s conclusion was that I was very likely to win. It even found previous cases where other people had sued the same debt collector over harassing calls and gave me actual links. GPT further suggested that I find a fee-shifting FDCPA attorney instead of going through small claims court. I then had ChatGPT help me find a law firm that had already won multiple similar FDCPA cases.
 
