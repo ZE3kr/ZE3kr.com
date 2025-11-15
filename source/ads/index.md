@@ -17,7 +17,7 @@ This site uses Google AdSense services to generate revenue. If you have ad block
 
 If you have turned off the ad blocker, try refreshing the page again. If this content persists, please check that your firewall allows Google AdSense-related domains.
 
-If the content of this site is helpful to you, I would appreciate if you could turn off ad blocking/content filtering for this site only.<!-- Of course, you can also choose to [donate](/transfer/) for me -->
+If the content of this site is helpful to you, I would appreciate if you could turn off ad blocking/content filtering for this site only.
 
 Usually, you need to click on the ad blocker icon and then turn off/disable blocking for this website. On mobile devices, you may need to select More - Site Settings - Content Blockers and turn it off.
 
